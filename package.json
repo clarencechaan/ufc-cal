@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "html-entities": "^2.4.0",
+    "ics": "^3.4.0",
     "node-html-parser": "^6.1.9"
   },
   "type": "module"

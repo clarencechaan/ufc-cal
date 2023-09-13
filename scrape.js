@@ -37,9 +37,18 @@ async function getDetailsFromEventLink(url) {
     let prelims = [];
 
     function convertLiToStr(li) {
-      let bout = li
-        .querySelector(".c-listing-fight__class-text")
-        .innerText.replace(" Bout", "");
+      let bout = li.querySelector(".c-listing-fight__class-text").innerText;
+      if (bout.includes("Strawweight")) bout = "115";
+      else if (bout.includes("Flyweight")) bout = "125";
+      else if (bout.includes("Bantamweight")) bout = "135";
+      else if (bout.includes("Featherweight")) bout = "145";
+      else if (bout.includes("Lightweight")) bout = "155";
+      else if (bout.includes("Welterweight")) bout = "170";
+      else if (bout.includes("Middleweight")) bout = "185";
+      else if (bout.includes("Light Heavyweight")) bout = "205";
+      else if (bout.includes("Heavyweight")) bout = "265";
+      else if (bout.includes("Catchweight")) bout = "CW";
+
       let red = li
         .querySelector(".c-listing-fight__corner-name--red")
         .innerText.replaceAll("\n", "")
@@ -55,14 +64,14 @@ async function getDetailsFromEventLink(url) {
       );
       ranks = ranks.map((rank) => rank?.innerText);
       let fightStr =
+        "• " +
         red +
         (ranks[0] ? " (" + ranks[0] + ")" : "") +
         " vs. " +
         blue +
         (ranks[1] ? " (" + ranks[1] + ")" : "") +
-        " [" +
-        bout +
-        "]";
+        " @" +
+        bout;
       fightStr = decode(fightStr);
       return fightStr;
     }
