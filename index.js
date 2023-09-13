@@ -29,7 +29,17 @@ async function createICS() {
       let location = event.location;
       let url = event.url;
       let uid = event.url;
-      return { start, duration, title, description, location, url, uid };
+      let calName = "UFC";
+      return {
+        start,
+        duration,
+        title,
+        description,
+        location,
+        url,
+        uid,
+        calName,
+      };
     });
 
     console.log(events);
