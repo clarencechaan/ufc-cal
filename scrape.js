@@ -1,4 +1,5 @@
 import { parse } from "node-html-parser";
+import { decode } from "html-entities";
 
 async function searchEvents() {
   let url = `https://www.tapology.com/search?term=ufc&commit=Submit&model%5Bevents%5D=eventsSearch`;
@@ -37,7 +38,7 @@ async function getDetails(event) {
     return date;
   }
 
-  const { name, link: url } = event;
+  let { name, link: url } = event;
   try {
     const response = await fetch(url);
     const text = await response.text();
@@ -63,9 +64,11 @@ async function getDetails(event) {
       let innerText = li.innerText.split("\n");
       let fight =
         innerText[2] + " vs. " + innerText[4] + " (" + innerText[7] + ")";
+      fight = decode(fight);
       fights.push(fight);
     }
 
+    [name, venue, location] = [decode(name), decode(venue), decode(location)];
     return { name, link: url, date, venue, location, fights };
   } catch (error) {
     console.error(error);
@@ -74,7 +77,6 @@ async function getDetails(event) {
 
 async function getDetailedEvents() {
   let events = [];
-
   try {
     events = await searchEvents();
     events = events.map((event) => getDetails(event));
@@ -84,5 +86,3 @@ async function getDetailedEvents() {
     console.error(error);
   }
 }
-
-getDetailedEvents();

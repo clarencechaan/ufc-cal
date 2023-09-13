@@ -9,6 +9,7 @@
   "author": "Clarence Chan",
   "license": "ISC",
   "devDependencies": {
+    "html-entities": "^2.4.0",
     "node-html-parser": "^6.1.9"
   },
   "type": "module"
