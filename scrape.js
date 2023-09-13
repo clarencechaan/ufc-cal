@@ -71,3 +71,18 @@ async function getDetails(event) {
     console.error(error);
   }
 }
+
+async function getDetailedEvents() {
+  let events = [];
+
+  try {
+    events = await searchEvents();
+    events = events.map((event) => getDetails(event));
+    events = await Promise.all(events);
+    return events;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+getDetailedEvents();
