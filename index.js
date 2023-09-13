@@ -32,6 +32,7 @@ async function createICS() {
       return { start, duration, title, description, location, url, uid };
     });
 
+    console.log(events);
     writeFileSync(`UFC.ics`, createEvents(events).value);
   } catch (error) {
     console.error(error);
