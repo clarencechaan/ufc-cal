@@ -24,10 +24,15 @@ async function getDetailsFromEventLink(url) {
     const response = await fetch(url);
     const text = await response.text();
     const root = parse(text);
-    let name = root.querySelector("title").innerText.split(" | ")[0];
+    let name = root.querySelector("title").innerText.replace(" | UFC", "");
     let date = root
       .querySelector(".c-hero__headline-suffix")
       .getAttribute("data-timestamp");
+    let prelimsTime = root
+      .querySelector(
+        "#main-card-id > ul > li:nth-child(2) > div > div > div.c-listing-viewing-option__column.c-listing-viewing-option__column--left > div.c-listing-viewing-option__time.tz-time-change-inner"
+      )
+      ?.getAttribute("data-timestamp");
     let location = root
       .querySelector(".field--name-venue")
       .innerText.replaceAll("\n", "")
@@ -78,8 +83,30 @@ async function getDetailsFromEventLink(url) {
       fightCard = fightCard.map(convertLiToStr);
     }
 
-    let details = { name, date, location, fightCard, mainCard, prelims };
+    [name, location] = [decode(name), decode(location)];
+    let details = {
+      name,
+      url,
+      date,
+      prelimsTime,
+      location,
+      fightCard,
+      mainCard,
+      prelims,
+    };
     return details;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+async function getAllDetailedEvents() {
+  let events = [];
+  try {
+    events = await getEventLinks();
+    events = events.map(getDetailsFromEventLink);
+    events = await Promise.all(events);
+    return events;
   } catch (error) {
     console.error(error);
   }
