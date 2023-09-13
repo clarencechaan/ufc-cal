@@ -28,11 +28,6 @@ async function getDetailsFromEventLink(url) {
     let date = root
       .querySelector(".c-hero__headline-suffix")
       .getAttribute("data-timestamp");
-    let prelimsTime = root
-      .querySelector(
-        "#main-card-id > ul > li:nth-child(2) > div > div > div.c-listing-viewing-option__column.c-listing-viewing-option__column--left > div.c-listing-viewing-option__time.tz-time-change-inner"
-      )
-      ?.getAttribute("data-timestamp");
     let location = root
       .querySelector(".field--name-venue")
       .innerText.replaceAll("\n", "")
@@ -88,7 +83,6 @@ async function getDetailsFromEventLink(url) {
       name,
       url,
       date,
-      prelimsTime,
       location,
       fightCard,
       mainCard,
@@ -111,3 +105,5 @@ async function getAllDetailedEvents() {
     console.error(error);
   }
 }
+
+export { getAllDetailedEvents };
