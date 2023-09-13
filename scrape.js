@@ -12,7 +12,7 @@ async function searchEvents() {
     for (let row of rows) {
       let bouts = parseInt(row.querySelector(".altB")?.innerText);
       if (!bouts) continue;
-      let date = new Date(Date.parse(row.childNodes[5]?.innerText));
+      let date = new Date(row.childNodes[5]?.innerText);
       if (date < now) break;
       let name = row.childNodes[1].innerText
         .replaceAll("\n", "")
@@ -24,6 +24,49 @@ async function searchEvents() {
       relevantEvents.push({ name, link });
     }
     return relevantEvents;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+async function getDetails(event) {
+  function convertDateString(input) {
+    let [, dateStr, , time, ampm] = input.split(" ");
+    let date = new Date(dateStr + " " + time);
+    if (ampm === "PM") date = new Date(date.getTime() + 1000 * 60 * 60 * 12);
+    return date;
+  }
+
+  const { name, link: url } = event;
+  try {
+    const response = await fetch(url);
+    const text = await response.text();
+    const root = parse(text);
+
+    // Get event date, venue, location
+    let details = root
+      .querySelector(".right > .clearfix")
+      .innerText.split("\n")
+      .filter((str) => str);
+    let date = convertDateString(details[0]);
+    let venue;
+    let location;
+    for (let i = 0; i < details.length; i++)
+      if (details[i] === "Venue:") venue = details[i + 1];
+      else if (details[i] === "Location:") location = details[i + 1];
+
+    // Get fights
+    let quickCard = root.querySelectorAll(".eventQuickCardSidebar li");
+    let fights = [];
+
+    for (const li of quickCard) {
+      let innerText = li.innerText.split("\n");
+      let fight =
+        innerText[2] + " vs. " + innerText[4] + " (" + innerText[7] + ")";
+      fights.push(fight);
+    }
+
+    return { name, link: url, date, venue, location, fights };
   } catch (error) {
     console.error(error);
   }
