@@ -9,7 +9,9 @@ async function getEventLinks() {
     let links = root.querySelectorAll(
       "#events-list-upcoming h3.c-card-event--result__headline"
     );
-    links = links.map((html) => html.firstChild.getAttribute("href"));
+    links = links.map(
+      (html) => "https://www.ufc.com" + html.firstChild.getAttribute("href")
+    );
     return links;
   } catch (error) {
     console.error(error);
