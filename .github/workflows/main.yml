@@ -8,15 +8,16 @@ jobs:
     steps:
       - name: Check out repository code
         # https://github.com/actions/checkout/tree/v3.0.2
-        uses: actions/checkout@v3
-      - name: Modify date and time
+      - uses: actions/checkout@v4
+        with:
+          ref: ics
+      - name: Create UFC.ics
         run: |
           npm start
       - name: Push to repository
         run: |
           git config --global user.name "Clarence Chan"
           git config --global user.email "clarencechaan@icloud.com"
-          git checkout ics
           git add UFC.ics
           git commit -m "Update UFC.ics"
           git push -u origin ics
