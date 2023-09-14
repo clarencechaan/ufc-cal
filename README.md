@@ -4,4 +4,4 @@
 
 Or subscribe manually from your calendar app:
 
-`https://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/UFC.ics`
+`webcal://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/UFC.ics`
