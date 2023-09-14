@@ -26,8 +26,8 @@ async function createICS() {
       if (event.prelims.length)
         description +=
           "\nPrelims\n----------\n" + event.prelims.join("\n") + "\n";
+      description += "\n" + event.url;
       let location = event.location;
-      let url = event.url;
       let uid = event.url;
       let calName = "UFC";
       return {
@@ -36,7 +36,6 @@ async function createICS() {
         title,
         description,
         location,
-        url,
         uid,
         calName,
       };
