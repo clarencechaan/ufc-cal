@@ -7,9 +7,7 @@ async function getEventLinks() {
     const response = await fetch(url);
     const text = await response.text();
     const root = parse(text);
-    let links = root.querySelectorAll(
-      "#events-list-upcoming h3.c-card-event--result__headline"
-    );
+    let links = root.querySelectorAll(".c-card-event--result__headline");
     links = links.map(
       (html) => "https://www.ufc.com" + html.firstChild.getAttribute("href")
     );
