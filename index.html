@@ -49,12 +49,17 @@
       }
       .sub-manual {
         margin-bottom: 40px;
+        max-width: 100%;
       }
-      code {
+      .code-wrapper {
         background-color: white;
-        padding: 4px 8px;
+        padding: 2px 6px;
         border: 1px solid lightgray;
         border-radius: 4px;
+      }
+      code {
+        overflow-wrap: break-word;
+        max-width: 100%;
       }
     </style>
   </head>
@@ -76,9 +81,11 @@
     </div>
     <div class="sub-manual">
       <p>Or subscribe manually from your calendar app:</p>
-      <code
-        >https://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/UFC.ics</code
-      >
+      <div class="code-wrapper">
+        <code
+          >https://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/UFC.ics</code
+        >
+      </div>
     </div>
     <p>Maintained by Clarence Chan</p>
     <p>
