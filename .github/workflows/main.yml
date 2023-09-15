@@ -3,7 +3,7 @@ name: GitHub Self-Updating Repository
 on:
   push:
   schedule:
-    - cron: "37 */4 * * *"
+    - cron: "0 */4 * * *"
 
 jobs:
   report:

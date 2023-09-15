@@ -6,6 +6,16 @@ async function createICS() {
   try {
     let events = await getAllDetailedEvents();
 
+    let currentDateTime = new Date();
+    let dateTimestr = currentDateTime.toLocaleString("en-US", {
+      month: "short",
+      day: "numeric",
+      hour: "numeric",
+      minute: "numeric",
+      timeZone: "America/Toronto",
+      timeZoneName: "short",
+    });
+
     events = events.map((event) => {
       let date = new Date(parseInt(event.date) * 1000);
       let start = [
@@ -27,6 +37,7 @@ async function createICS() {
         description +=
           "\nPrelims\n----------\n" + event.prelims.join("\n") + "\n";
       description += "\n" + event.url;
+      description += "\n\nAccurate as of " + dateTimestr;
       let location = event.location;
       let uid = event.url;
       let calName = "UFC";
