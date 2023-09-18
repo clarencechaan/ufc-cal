@@ -5,6 +5,7 @@ import { createEvents } from "ics";
 async function createICS() {
   try {
     let events = await getAllDetailedEvents();
+    if (!events.length) throw "No events retrieved";
 
     let currentDateTime = new Date();
     let dateTimestr = currentDateTime.toLocaleString("en-US", {
