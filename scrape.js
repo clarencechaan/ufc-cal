@@ -107,6 +107,7 @@ async function getAllDetailedEvents() {
     events = await getEventLinks();
     events = events.map(getDetailsFromEventLink);
     events = await Promise.all(events);
+    if (events.some((event) => !event)) throw "Failed to retrieve an event";
     return events;
   } catch (error) {
     console.error(error);
