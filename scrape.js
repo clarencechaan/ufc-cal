@@ -11,6 +11,8 @@ async function getEventLinks() {
     links = links.map(
       (html) => "https://www.ufc.com" + html.firstChild.getAttribute("href")
     );
+    console.log("\nEvent links found:");
+    console.log(links);
     return links;
   } catch (error) {
     console.error(error);
@@ -74,14 +76,23 @@ async function getDetailsFromEventLink(url) {
       return fightStr;
     }
 
+    console.log("\nGetting details from url:", url);
+
     if (mainCard.length) {
-      mainCard = mainCard.map(convertLiToStr);
       prelims = root.querySelectorAll("#prelims-card .l-listing__item");
+
+      console.log("Main card length:", mainCard.length);
+      console.log("Prelims length:", prelims.length);
+
+      mainCard = mainCard.map(convertLiToStr);
       prelims = prelims.map(convertLiToStr);
     } else {
       fightCard = root.querySelectorAll(
         ".l-listing__group--bordered .l-listing__item"
       );
+
+      console.log("Fight card length:", fightCard.length);
+
       fightCard = fightCard.map(convertLiToStr);
     }
 
@@ -97,7 +108,7 @@ async function getDetailsFromEventLink(url) {
     };
     return details;
   } catch (error) {
-    console.error(error);
+    throw new Error("Failed to retrieve event: " + url + "\n" + error);
   }
 }
 
@@ -107,7 +118,6 @@ async function getAllDetailedEvents() {
     events = await getEventLinks();
     events = events.map(getDetailsFromEventLink);
     events = await Promise.all(events);
-    if (events.some((event) => !event)) throw "Failed to retrieve an event";
     return events;
   } catch (error) {
     console.error(error);

@@ -5,7 +5,7 @@ import { createEvents } from "ics";
 async function createICS() {
   try {
     let events = await getAllDetailedEvents();
-    if (!events.length) throw "No events retrieved";
+    if (!events.length) throw new Error("No events retrieved");
 
     let currentDateTime = new Date();
     let dateTimestr = currentDateTime.toLocaleString("en-US", {
@@ -53,6 +53,7 @@ async function createICS() {
       };
     });
 
+    console.log("\nDetailed events:");
     console.log(events);
     writeFileSync(`UFC.ics`, createEvents(events).value);
   } catch (error) {
