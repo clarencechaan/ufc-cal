@@ -37,7 +37,15 @@ async function getDetailsFromEventLink(url) {
     let prelims = [];
 
     function convertLiToStr(li) {
-      let bout = li.querySelector(".c-listing-fight__class-text").innerText;
+      let bout = li.querySelector(".c-listing-fight__class-text")?.innerText;
+      if (!bout)
+        return (
+          "• " +
+          li
+            .querySelector(".field--name-node-title")
+            .innerText.trim()
+            .replace(" vs ", " vs. ")
+        );
       if (bout.includes("Strawweight")) bout = "115";
       else if (bout.includes("Flyweight")) bout = "125";
       else if (bout.includes("Bantamweight")) bout = "135";
