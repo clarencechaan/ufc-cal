@@ -1,16 +1,25 @@
 import { parse } from "node-html-parser";
 import { decode } from "html-entities";
 
+/**
+ * Returns an array of URL strings of recent and near-future UFC events
+ *
+ * @returns {Promise<Array<string>>} - A Promise that resolves with the array
+ *     of URL strings of UFC events
+ */
 async function getEventLinks() {
   let url = `https://www.ufc.com/events`;
   try {
     const response = await fetch(url);
     const text = await response.text();
     const root = parse(text);
+
+    // Extract the URLs of the relevant events from the DOM object
     let links = root.querySelectorAll(".c-card-event--result__headline");
     links = links.map(
       (html) => "https://www.ufc.com" + html.firstChild.getAttribute("href")
     );
+
     console.log("\nEvent links found:");
     console.log(links);
     return links;
@@ -19,11 +28,20 @@ async function getEventLinks() {
   }
 }
 
+/**
+ * Returns the fight card details of a UFC event given its URL
+ *
+ * @param {string} url - A URL string of a UFC event
+ * @returns {Promise<object>} - A Promise that resolves with the fight card details of
+ *     the UFC event
+ */
 async function getDetailsFromEventLink(url) {
   try {
     const response = await fetch(url);
     const text = await response.text();
     const root = parse(text);
+
+    // Extract basic details of the event from the DOM object
     let name = root.querySelector("title").innerText.replace(" | UFC", "");
     let date = root
       .querySelector(".c-hero__headline-suffix")
@@ -36,8 +54,17 @@ async function getDetailsFromEventLink(url) {
     let mainCard = root.querySelectorAll("#main-card .l-listing__item");
     let prelims = [];
 
+    /**
+     * Helper function to return the string of a fight given its DOM list item
+     *
+     * @param {object} li - The DOM list item of a fight
+     * @returns {string} - The string of a fight
+     */
     function convertLiToStr(li) {
       let bout = li.querySelector(".c-listing-fight__class-text")?.innerText;
+
+      // Return only fight names without bout weightclass if formatting for
+      // an event is broken on the UFC event page
       if (!bout)
         return (
           "• " +
@@ -46,6 +73,8 @@ async function getDetailsFromEventLink(url) {
             .innerText.trim()
             .replace(" vs ", " vs. ")
         );
+
+      // Convert weightclass to lbs
       if (bout.includes("Strawweight")) bout = "115";
       else if (bout.includes("Flyweight")) bout = "125";
       else if (bout.includes("Bantamweight")) bout = "135";
@@ -57,6 +86,7 @@ async function getDetailsFromEventLink(url) {
       else if (bout.includes("Heavyweight")) bout = "265";
       else if (bout.includes("Catchweight")) bout = "CW";
 
+      // Extract and format fighter names with weightclass
       let red = li
         .querySelector(".c-listing-fight__corner-name--red")
         .innerText.replaceAll("\n", "")
@@ -80,13 +110,18 @@ async function getDetailsFromEventLink(url) {
         (ranks[1] ? " (" + ranks[1] + ")" : "") +
         " @" +
         bout;
+
+      // Deentitize HTML entities
       fightStr = decode(fightStr);
+
       return fightStr;
     }
 
     console.log("\nGetting details from url:", url);
 
+    // Check if main card & prelims have been announced
     if (mainCard.length) {
+      // Main card has been announced, extract prelims
       prelims = root.querySelectorAll("#prelims-card .l-listing__item");
 
       console.log("Main card length:", mainCard.length);
@@ -95,6 +130,7 @@ async function getDetailsFromEventLink(url) {
       mainCard = mainCard.map(convertLiToStr);
       prelims = prelims.map(convertLiToStr);
     } else {
+      // Main card has not been announced, extract entire fight card
       fightCard = root.querySelectorAll(
         ".l-listing__group--bordered .l-listing__item"
       );
@@ -104,7 +140,9 @@ async function getDetailsFromEventLink(url) {
       fightCard = fightCard.map(convertLiToStr);
     }
 
+    // Deentitize HTML entities
     [name, location] = [decode(name), decode(location)];
+
     let details = {
       name,
       url,
@@ -120,10 +158,19 @@ async function getDetailsFromEventLink(url) {
   }
 }
 
+/**
+ * Returns an array of details of recent and near-future UFC events
+ *
+ * @returns {Promise<Array<object>>} - A Promise that resolves with the array
+ *     of details of recent and near-future UFC events
+ */
 async function getAllDetailedEvents() {
   let events = [];
   try {
+    // Get the URLs of recent and near-future UFC events
     events = await getEventLinks();
+
+    // Convert each URL to the details of the corresponding UFC event
     events = events.map(getDetailsFromEventLink);
     events = await Promise.all(events);
     return events;
