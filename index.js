@@ -1,5 +1,5 @@
 import { getAllDetailedEvents } from "./scrape.js";
-import { writeFileSync } from "fs";
+import { writeFile } from "fs/promises";
 import { createEvents } from "ics";
 
 /**
@@ -71,7 +71,7 @@ async function createICS() {
     console.log(events);
 
     // Create UFC.ics
-    writeFileSync(`UFC.ics`, createEvents(events).value);
+    writeFile(`UFC.ics`, createEvents(events).value);
   } catch (error) {
     console.error(error);
   }
