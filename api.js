@@ -1,4 +1,4 @@
-import { writeFile } from "fs/promises";
+import { writeFile, readFile } from "fs/promises";
 
 /**
  * Returns the details of a UFC event given its event ID and using the UFC API
@@ -68,9 +68,58 @@ async function initializeEvents() {
       Date.now() - 1000 * 60 * 60 * 24 * 90
     );
 
+    console.log("Creating events.json");
+
     // Write the fetched events to events.json
     fetchedEvents = JSON.stringify(fetchedEvents, null, 2);
     writeFile("./events.json", fetchedEvents);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+/**
+ * Update upcoming events in events.json, and add newly found events to events.json
+ *
+ * @returns {Promise<void>} - A Promise that resolves when events.json is updated
+ */
+async function updateEventsFile() {
+  try {
+    let events = JSON.parse(await readFile("./events.json"));
+
+    // Update upcoming events
+    for (let i = 0; i < events.length; i++) {
+      // Skip past events
+      if (new Date(events[i].LiveEventDetail.StartTime) < Date.now()) continue;
+
+      console.log("Updating event", events[i].LiveEventDetail.EventId);
+      events[i] = await fetchEvent(events[i].LiveEventDetail.EventId);
+    }
+
+    // Starting from the latest event ID previously found, find and add any
+    // new events
+    let eventId = events[0].LiveEventDetail.EventId;
+    let event;
+    do {
+      eventId++;
+
+      event = await fetchEvent(eventId);
+
+      // Only filter in UFC events
+      if (
+        event.LiveEventDetail.EventId &&
+        event.LiveEventDetail.Organization.OrganizationId === 1
+      ) {
+        console.log("Found new event", event.LiveEventDetail.EventId);
+        events.unshift(event);
+      }
+    } while (event?.LiveEventDetail.EventId);
+
+    console.log("Updating events.json");
+
+    // Write the newly added and updated events to events.json
+    events = JSON.stringify(events, null, 2);
+    writeFile("./events.json", events);
   } catch (error) {
     console.error(error);
   }
