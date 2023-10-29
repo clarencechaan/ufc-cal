@@ -96,7 +96,7 @@ async function updateEventsFile() {
     // Update upcoming events
     for (let i = 0; i < events.length; i++) {
       // Skip past events
-      if (new Date(events[i].LiveEventDetail.StartTime) < Date.now()) continue;
+      if (events[i].LiveEventDetail.Status === "Final") continue;
 
       console.log("Updating event", events[i].LiveEventDetail.EventId);
       events[i] = fetchEvent(events[i].LiveEventDetail.EventId);
