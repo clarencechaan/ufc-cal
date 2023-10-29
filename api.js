@@ -23,10 +23,12 @@ async function fetchEvent(eventId) {
 
 /**
  * Using the UFC API, search for the latest event ID, then request each event
- * preceding it until we reach an event that occurred 90 days before now.
- * Finally, create events.json containing these events
+ * preceding it until we reach an event that occurred 90 days before now, then
+ * create events.json containing these events.
+ * Finally return an array of these events
  *
- * @returns {Promise<void>} - A Promise that resolves when events.json is created
+ * @returns {Promise<Array<object>>} - A Promise that resolves with the array
+ *     of details of recent and upcoming UFC events
  */
 async function initializeEvents() {
   // Binary search for the event with the highest valid event ID
@@ -71,8 +73,10 @@ async function initializeEvents() {
     console.log("Creating events.json");
 
     // Write the fetched events to events.json
-    fetchedEvents = JSON.stringify(fetchedEvents, null, 2);
-    writeFile("./events.json", fetchedEvents);
+    const json = JSON.stringify(fetchedEvents, null, 2);
+    writeFile("./events.json", json);
+
+    return fetchedEvents;
   } catch (error) {
     console.error(error);
   }
@@ -80,8 +84,10 @@ async function initializeEvents() {
 
 /**
  * Update upcoming events in events.json, and add newly found events to events.json
+ * Return an array of these events
  *
- * @returns {Promise<void>} - A Promise that resolves when events.json is updated
+ * @returns {Promise<Array<object>>} - A Promise that resolves with the array
+ *     of details of recent and upcoming UFC events
  */
 async function updateEventsFile() {
   try {
@@ -120,9 +126,33 @@ async function updateEventsFile() {
     console.log("Updating events.json");
 
     // Write the newly added and updated events to events.json
-    events = JSON.stringify(events, null, 2);
-    writeFile("./events.json", events);
+    const json = JSON.stringify(events, null, 2);
+    writeFile("./events.json", json);
+
+    return events;
   } catch (error) {
     console.error(error);
   }
 }
+
+/**
+ * Create events.json if it does not exist, otherwise update events.json.
+ * Return an array of recent and upcoming events
+ *
+ * @returns {Promise<Array<object>>} - A Promise that resolves with the array
+ *     of details of recent and upcoming UFC events
+ */
+async function getEvents() {
+  let events;
+
+  try {
+    events = await updateEventsFile();
+    if (!events) events = await initializeEvents();
+  } catch (error) {
+    console.error(error);
+  }
+
+  return events;
+}
+
+export { getEvents };
