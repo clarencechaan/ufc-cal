@@ -3,12 +3,13 @@ import { writeFile } from "fs/promises";
 import { createEvents } from "ics";
 
 /**
- * Extracts the details of recent and near-future UFC events, then creates an
- * ICS file named "UFC.ics" in the current directory containing these events
+ * Extracts the details of recent and near-future UFC events by scraping the
+ * UFC website, then creates an ICS file named "UFC.ics" in the current
+ * directory containing these events
  *
  * @returns {Promise<void>} - A Promise that resolves when the ICS file is created
  */
-async function createICS() {
+async function createICSFromScrape() {
   try {
     let events = await getAllDetailedEvents();
     if (!events.length) throw new Error("No events retrieved");
@@ -77,4 +78,4 @@ async function createICS() {
   }
 }
 
-createICS();
+createICSFromScrape();
