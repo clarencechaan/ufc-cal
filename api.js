@@ -93,8 +93,10 @@ async function updateEventsFile() {
       if (new Date(events[i].LiveEventDetail.StartTime) < Date.now()) continue;
 
       console.log("Updating event", events[i].LiveEventDetail.EventId);
-      events[i] = await fetchEvent(events[i].LiveEventDetail.EventId);
+      events[i] = fetchEvent(events[i].LiveEventDetail.EventId);
     }
+
+    events = await Promise.all(events);
 
     // Starting from the latest event ID previously found, find and add any
     // new events
