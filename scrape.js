@@ -46,10 +46,12 @@ async function getDetailsFromEventLink(url) {
     let date = root
       .querySelector(".c-hero__headline-suffix")
       .getAttribute("data-timestamp");
-    let location = root
-      .querySelector(".field--name-venue")
-      .innerText.replaceAll("\n", "")
-      .replaceAll("   ", " ");
+
+    let location =
+      root
+        .querySelector(".field--name-venue")
+        ?.innerText.replaceAll("\n", "")
+        .replaceAll("   ", " ") || "";
     let fightCard = [];
     let mainCard = root.querySelectorAll("#main-card .l-listing__item");
     let prelims = [];
