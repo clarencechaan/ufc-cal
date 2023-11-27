@@ -45,11 +45,27 @@ async function createICS() {
         description += event.fightCard.join("\n") + "\n";
       if (event.mainCard.length)
         description +=
-          "Main Card\n----------\n" + event.mainCard.join("\n") + "\n";
-      if (event.prelims.length)
+          "Main Card\n--------------------\n" +
+          event.mainCard.join("\n") +
+          "\n";
+      if (event.prelims.length) {
+        let prelimsTime = new Date(parseInt(event.prelimsTime) * 1000);
+        let hoursAgo = (date - prelimsTime) / 1000 / 60 / 60;
         description +=
-          "\nPrelims\n----------\n" + event.prelims.join("\n") + "\n";
-
+          `\nPrelims (${hoursAgo} hrs before Main)\n--------------------\n` +
+          event.prelims.join("\n") +
+          "\n";
+      }
+      if (event.earlyPrelims.length) {
+        let earlyPrelimsTime = new Date(
+          parseInt(event.earlyPrelimsTime) * 1000
+        );
+        let hoursAgo = (date - earlyPrelimsTime) / 1000 / 60 / 60;
+        description +=
+          `\nEarly Prelims (${hoursAgo} hrs before Main)\n--------------------\n` +
+          event.earlyPrelims.join("\n") +
+          "\n";
+      }
       description += "\n" + event.url;
       description += "\n\nAccurate as of " + dateTimestr;
 

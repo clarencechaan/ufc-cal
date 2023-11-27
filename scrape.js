@@ -46,6 +46,12 @@ async function getDetailsFromEventLink(url) {
     let date = root
       .querySelector(".c-hero__headline-suffix")
       .getAttribute("data-timestamp");
+    let prelimsTime = root
+      .querySelector("#prelims-card .c-event-fight-card-broadcaster__time")
+      ?.getAttribute("data-timestamp");
+    let earlyPrelimsTime = root
+      .querySelector("#early-prelims .c-event-fight-card-broadcaster__time")
+      ?.getAttribute("data-timestamp");
 
     let location =
       root
@@ -55,6 +61,7 @@ async function getDetailsFromEventLink(url) {
     let fightCard = [];
     let mainCard = root.querySelectorAll("#main-card .l-listing__item");
     let prelims = [];
+    let earlyPrelims = [];
 
     /**
      * Helper function to return the string of a fight given its DOM list item
@@ -125,12 +132,14 @@ async function getDetailsFromEventLink(url) {
     if (mainCard.length) {
       // Main card has been announced, extract prelims
       prelims = root.querySelectorAll("#prelims-card .l-listing__item");
+      earlyPrelims = root.querySelectorAll("#early-prelims .l-listing__item");
 
       console.log("Main card length:", mainCard.length);
       console.log("Prelims length:", prelims.length);
 
       mainCard = mainCard.map(convertLiToStr);
       prelims = prelims.map(convertLiToStr);
+      earlyPrelims = earlyPrelims.map(convertLiToStr);
     } else {
       // Main card has not been announced, extract entire fight card
       fightCard = root.querySelectorAll(
@@ -153,6 +162,9 @@ async function getDetailsFromEventLink(url) {
       fightCard,
       mainCard,
       prelims,
+      earlyPrelims,
+      prelimsTime,
+      earlyPrelimsTime,
     };
     return details;
   } catch (error) {
