@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-january-13-2024
 SUMMARY:UFC Fight Night: Ankalaev vs Walker 2
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20240114T000000Z
 DESCRIPTION:Main Card\n--------------------\n• Magomed Ankalaev (#3) vs. Jo
 	hnny Walker (#7) @205\n• Matheus Nicolau (#5) vs. Manel Kape (#6) @125\n• 
@@ -19,14 +19,14 @@ DESCRIPTION:Main Card\n--------------------\n• Magomed Ankalaev (#3) vs. Jo
 	n Bolanos @135\n• Farid Basharat vs. Taylor Lapilus @135\n• Westin Wilson 
 	vs. Jean Silva @145\n• Nikolas Motta vs. Tom Nolan @155\n• Joshua Van vs. 
 	Felipe Bunes @125\n\nhttps://www.ufc.com/event/ufc-fight-night-january-13-
-	2024\n\nAccurate as of Jan 10\, 11:21 PM EST
+	2024\n\nAccurate as of Jan 11\, 3:22 AM EST
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-297
 SUMMARY:UFC 297: Strickland vs du Plessis
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20240121T030000Z
 DESCRIPTION:Main Card\n--------------------\n• Sean Strickland (C) vs. Dric
 	us Du Plessis (#2) @185\n• Raquel Pennington (#2) vs. Mayra Bueno Silva (#
@@ -38,14 +38,14 @@ DESCRIPTION:Main Card\n--------------------\n• Sean Strickland (C) vs. Dric
 	\nEarly Prelims (3.5 hrs before Main)\n--------------------\n• Yohan Laine
 	sse vs. Sam Patterson @170\n• Jasmine Jasudavicius vs. Priscila Cachoeira 
 	@125\n• Malcolm Gordon vs. Jimmy Flick @125\n\nhttps://www.ufc.com/event/u
-	fc-297\n\nAccurate as of Jan 10\, 11:21 PM EST
+	fc-297\n\nAccurate as of Jan 11\, 3:22 AM EST
 LOCATION:Scotiabank Arena\, Toronto Canada
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-february-03-2024
 SUMMARY:UFC Fight Night: Dolidze vs Imavov
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20240204T000000Z
 DESCRIPTION:• Roman Dolidze (#7) vs. Nassourdine Imavov (#11) @185\n• Renat
 	o Moicano (#13) vs. Drew Dober (#15) @155\n• William Gomis vs. Melsik Bagh
@@ -56,14 +56,14 @@ DESCRIPTION:• Roman Dolidze (#7) vs. Nassourdine Imavov (#11) @185\n• Renat
 	 Natalia Silva (#10) @125\n• Nate Maness vs. Azat Maksum @125\n• Landon Qu
 	inones vs. Marquel Mederos @155\n• Thomas Petersen vs. Jamal Pogues @265\n
 	\nhttps://www.ufc.com/event/ufc-fight-night-february-03-2024\n\nAccurate a
-	s of Jan 10\, 11:21 PM EST
+	s of Jan 11\, 3:22 AM EST
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-february-10-2024
 SUMMARY:UFC Fight Night: Hermansson vs Pyfer
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20240211T030000Z
 DESCRIPTION:• Jack Hermansson (#10) vs. Joe Pyfer @185\n• Dan Ige (#13) vs.
 	 Lerone Murphy (#15) @145\n• Brad Tavares vs. Gregory Rodrigues @185\n• Da
@@ -74,14 +74,14 @@ DESCRIPTION:• Jack Hermansson (#10) vs. Joe Pyfer @185\n• Dan Ige (#13) vs.
 	. Bogdan Guskov @205\n• Daniel Marcos vs. Aoriqileng @135\n• Devin Clark v
 	s. Marcin Prachnio @205\n• Shayilan Nuerdanbieke vs. Hyder Amil @145\n\nht
 	tps://www.ufc.com/event/ufc-fight-night-february-10-2024\n\nAccurate as of
-	 Jan 10\, 11:21 PM EST
+	 Jan 11\, 3:22 AM EST
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-298
 SUMMARY:UFC 298: Volkanovski vs Topuria
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20240218T030000Z
 DESCRIPTION:• Alexander Volkanovski (C) vs. Ilia Topuria (#5) @145\n• Merab
 	 Dvalishvili (#2) vs. Henry Cejudo (#3) @135\n• Tai Tuivasa (#9) vs. Marci
@@ -90,39 +90,39 @@ DESCRIPTION:• Alexander Volkanovski (C) vs. Ilia Topuria (#5) @145\n• Merab
 	 vs. Ikram Aliskerov @185\n• Marcos Rogerio de Lima (#14) vs. Justin Tafa 
 	@265\n• Zhang Mingyang vs. Brendson Ribeiro @205\n• Yusaku Kinoshita vs. D
 	anny Barlow @170\n• Andrea Lee (#15) vs. Miranda Maverick @125\n\nhttps://
-	www.ufc.com/event/ufc-298\n\nAccurate as of Jan 10\, 11:21 PM EST
+	www.ufc.com/event/ufc-298\n\nAccurate as of Jan 11\, 3:22 AM EST
 LOCATION:Honda Center\, Anaheim United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-february-24-2024
 SUMMARY:UFC Mexico City
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20240225T030000Z
 DESCRIPTION:• Brandon Moreno (#1) vs. Amir Albazi (#2) @125\n• Yair Rodrigu
 	ez (#2) vs. Brian Ortega (#3) @145\n• Manuel Torres vs. Chris Duncan @155\
 	n• Luis Rodriguez vs. Denys Bondar @125\n• Jesus Aguilar vs. Mateus Mendon
 	ça @125\n• Yazmin Jauregui vs. Sam Hughes @115\n• Edgar Chairez vs. Daniel
 	 Lacerda @125\n• Victor Altamirano vs. Felipe dos Santos @125\n\nhttps://w
-	ww.ufc.com/event/ufc-fight-night-february-24-2024\n\nAccurate as of Jan 10
-	\, 11:21 PM EST
+	ww.ufc.com/event/ufc-fight-night-february-24-2024\n\nAccurate as of Jan 11
+	\, 3:22 AM EST
 LOCATION:Arena CDMX\, México D.F. Mexico
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-march-02-2024
 SUMMARY:UFC Fight Night | TBD vs TBD
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20240302T190000Z
 DESCRIPTION:• TBD vs. TBD @185\n\nhttps://www.ufc.com/event/ufc-fight-night
-	-march-02-2024\n\nAccurate as of Jan 10\, 11:21 PM EST
+	-march-02-2024\n\nAccurate as of Jan 11\, 3:22 AM EST
 LOCATION:Kingdom Arena\, Riyadh Saudi Arabia
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-299
 SUMMARY:UFC 299: O'Malley vs Vera 2
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20240310T030000Z
 DESCRIPTION:• Sean O'Malley (C) vs. Marlon Vera (#6) @135\n• Dustin Poirier
 	 (#3) vs. Benoît Saint Denis (#12) @155\n• Gilbert Burns (#4) vs. Jack Del
@@ -133,14 +133,14 @@ DESCRIPTION:• Sean O'Malley (C) vs. Marlon Vera (#6) @135\n• Dustin Poirier
 	vs. Kyler Phillips @135\n• Robelis Despaigne vs. Josh Parisian @265\n• Lau
 	ren Murphy (#6) vs. Karine Silva (#13) @125\n• Michel Pereira vs. Michal O
 	leksiejczuk @185\n• CJ Vergara vs. Assu Almabayev @125\n\nhttps://www.ufc.
-	com/event/ufc-299\n\nAccurate as of Jan 10\, 11:21 PM EST
+	com/event/ufc-299\n\nAccurate as of Jan 11\, 3:22 AM EST
 LOCATION:Kaseya Center\, Miami United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-296
 SUMMARY:UFC 296: Edwards vs Covington
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20231217T030000Z
 DESCRIPTION:Main Card\n--------------------\n• Leon Edwards vs. Colby Covin
 	gton @170\n• Alexandre Pantoja vs. Brandon Royval @125\n• Shavkat Rakhmono
@@ -151,14 +151,14 @@ DESCRIPTION:Main Card\n--------------------\n• Leon Edwards vs. Colby Covin
 	ll vs. Ariane Lipski @125\n\nEarly Prelims (3.5 hrs before Main)\n--------
 	------------\n• Tagir Ulanbekov vs. Cody Durden @125\n• Andre Fili vs. Luc
 	as Almeida @145\n• Martin Buday vs. Shamil Gaziev @265\n\nhttps://www.ufc.
-	com/event/ufc-296\n\nAccurate as of Jan 10\, 11:21 PM EST
+	com/event/ufc-296\n\nAccurate as of Jan 11\, 3:22 AM EST
 LOCATION:T-Mobile Arena\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-december-09-2023
 SUMMARY:UFC Fight Night: Song vs Gutierrez
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20231210T030000Z
 DESCRIPTION:Main Card\n--------------------\n• Song Yadong vs. Chris Gutier
 	rez @135\n• Anthony Smith vs. Khalil Rountree Jr. @205\n• Nasrat Haqparast
@@ -168,14 +168,14 @@ DESCRIPTION:Main Card\n--------------------\n• Song Yadong vs. Chris Gutier
 	s @125\n• Steve Garcia vs. Melquizael Costa @155\n• Luana Santos vs. Steph
 	anie Egger @135\n• Tatsuro Taira vs. Carlos Hernandez @125\n• Rayanne Aman
 	da vs. Talita Alencar @115\n\nhttps://www.ufc.com/event/ufc-fight-night-de
-	cember-09-2023\n\nAccurate as of Jan 10\, 11:21 PM EST
+	cember-09-2023\n\nAccurate as of Jan 11\, 3:22 AM EST
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-december-02-2023
 SUMMARY:UFC Fight Night: Dariush vs Tsarukyan
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20231203T000000Z
 DESCRIPTION:Main Card\n--------------------\n• Beneil Dariush vs. Arman Tsa
 	rukyan @155\n• Jalin Turner (#12) vs. Bobby Green (#13) @155\n• Rob Font v
@@ -186,14 +186,14 @@ DESCRIPTION:Main Card\n--------------------\n• Beneil Dariush vs. Arman Tsa
 	vs. Joe Solecki @155\n• Rodolfo Bellato vs. Ihor Potieria @205\n• Wellingt
 	on Turman vs. Jared Gooden @170\n• Veronica Hardy vs. Jamey-Lyn Horth @125
 	\n\nhttps://www.ufc.com/event/ufc-fight-night-december-02-2023\n\nAccurate
-	 as of Jan 10\, 11:21 PM EST
+	 as of Jan 11\, 3:22 AM EST
 LOCATION:Moody Center\, Austin United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-november-18-2023
 SUMMARY:UFC Fight Night: Allen vs Craig
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20231118T220000Z
 DESCRIPTION:Main Card\n--------------------\n• Brendan Allen vs. Paul Craig
 	 @185\n• Michael Morales vs. Jake Matthews @170\n• Chase Hooper vs. Jordan
@@ -205,14 +205,14 @@ DESCRIPTION:Main Card\n--------------------\n• Brendan Allen vs. Paul Craig
 	ragih vs. Lucas Alexander @145\n• Lucie Pudilova vs. Ailin Perez @135\n• T
 	rey Ogden vs. Nikolas Motta @155\n• Charles Johnson vs. Rafael Estevam @12
 	5\n\nhttps://www.ufc.com/event/ufc-fight-night-november-18-2023\n\nAccurat
-	e as of Jan 10\, 11:21 PM EST
+	e as of Jan 11\, 3:22 AM EST
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-295
 SUMMARY:UFC 295: Procházka vs Pereira
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20231112T030000Z
 DESCRIPTION:Main Card\n--------------------\n• Jiří Procházka vs. Alex Pere
 	ira @205\n• Sergei Pavlovich vs. Tom Aspinall @265\n• Jéssica Andrade vs. 
@@ -224,14 +224,14 @@ DESCRIPTION:Main Card\n--------------------\n• Jiří Procházka vs. Alex Pere
 	-----------------\n• Jared Gordon vs. Mark Madsen @155\n• John Castaneda v
 	s. Kyung Ho Kang @CW\n• Joshua Van vs. Kevin Borjas @125\n• Dennis Buzukja
 	 vs. Jamall Emmers @145\n\nhttps://www.ufc.com/event/ufc-295\n\nAccurate a
-	s of Jan 10\, 11:21 PM EST
+	s of Jan 11\, 3:22 AM EST
 LOCATION:Madison Square Garden\, New York United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-november-04-2023
 SUMMARY:UFC Fight Night: Almeida vs Lewis
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20231105T010000Z
 DESCRIPTION:Main Card\n--------------------\n• Jailton Almeida vs. Derrick 
 	Lewis @265\n• Gabriel Bonfim vs. Nicolas Dalby @170\n• Rodrigo Nascimento 
@@ -241,14 +241,14 @@ DESCRIPTION:Main Card\n--------------------\n• Jailton Almeida vs. Derrick
 	itor Petrino vs. Modestas Bukauskas @205\n• Angela Hill vs. Denise Gomes @
 	115\n• Eduarda Moura vs. Montserrat Ruiz @115\n• Kauê Fernandes vs. Marc D
 	iakiese @155\n\nhttps://www.ufc.com/event/ufc-fight-night-november-04-2023
-	\n\nAccurate as of Jan 10\, 11:21 PM EST
+	\n\nAccurate as of Jan 11\, 3:22 AM EST
 LOCATION:Ibirapuera Arena\, São Paulo Brazil
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-294
 SUMMARY:UFC 294: Makhachev vs Volkanovski 2
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20231021T180000Z
 DESCRIPTION:Main Card\n--------------------\n• Islam Makhachev vs. Alexande
 	r Volkanovski @155\n• Kamaru Usman vs. Khamzat Chimaev @185\n• Magomed Ank
@@ -259,14 +259,14 @@ DESCRIPTION:Main Card\n--------------------\n• Islam Makhachev vs. Alexande
 	itar vs. Sedriques Dumas @185\n• Mike Breeden vs. Anshul Jubli @155\n• Nat
 	haniel Wood vs. Muhammad Naimov @145\n• Viktoriia Dudakova vs. Jinh Yu Fre
 	y @115\n• Shara Magomedov vs. Bruno Silva @185\n\nhttps://www.ufc.com/even
-	t/ufc-294\n\nAccurate as of Jan 10\, 11:21 PM EST
+	t/ufc-294\n\nAccurate as of Jan 11\, 3:22 AM EST
 LOCATION:Etihad Arena\, Yas Island/Yas West United Arab Emirates
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-october-14-2023
 SUMMARY:UFC Fight Night: Yusuff vs Barboza
-DTSTAMP:20240111T042158Z
+DTSTAMP:20240111T082253Z
 DTSTART:20231014T230000Z
 DESCRIPTION:Main Card\n--------------------\n• Sodiq Yusuff vs. Edson Barbo
 	za @145\n• Jennifer Maia vs. Viviane Araújo @125\n• Jonathan Martinez vs. 
@@ -276,7 +276,7 @@ DESCRIPTION:Main Card\n--------------------\n• Sodiq Yusuff vs. Edson Barbo
 	na Oliveira @135\n• Terrance McKinney vs. Brendon Marotte @155\n• Irina Al
 	ekseeva vs. Melissa Dixon @135\n• Chris Gutierrez vs. Alatengheili @135\n•
 	 Ashley Yoder vs. Emily Ducote @115\n\nhttps://www.ufc.com/event/ufc-fight
-	-night-october-14-2023\n\nAccurate as of Jan 10\, 11:21 PM EST
+	-night-october-14-2023\n\nAccurate as of Jan 11\, 3:22 AM EST
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
