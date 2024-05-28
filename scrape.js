@@ -42,7 +42,14 @@ async function getDetailsFromEventLink(url) {
     const root = parse(text);
 
     // Extract basic details of the event from the DOM object
-    let name = root.querySelector("title").innerText.replace(" | UFC", "");
+    let headlinePrefix = root
+      .querySelector(".c-hero__headline-prefix")
+      .innerText.trim();
+    let headline = root
+      .querySelector(".c-hero__headline")
+      .innerText.replace(/\s\s+/g, " ")
+      .trim();
+    let name = `${headlinePrefix}: ${headline}`;
     let date = root
       .querySelector(".c-hero__headline-suffix")
       .getAttribute("data-timestamp");
