@@ -44,10 +44,9 @@ async function createICS() {
       if (event.fightCard.length)
         description = `${event.fightCard.join("\n")}\n`;
       if (event.mainCard.length)
-        description +=
-          "Main Card\n--------------------\n" +
-          event.mainCard.join("\n") +
-          "\n";
+        description += `Main Card\n--------------------\n${event.mainCard.join(
+          "\n"
+        )}\n`;
       if (event.prelims.length) {
         description += "\nPrelims";
         if (event.prelimsTime) {
