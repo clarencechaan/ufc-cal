@@ -8,7 +8,7 @@ import { decode } from "html-entities";
  *     of URL strings of UFC events
  */
 async function getEventLinks() {
-  let url = `https://www.ufc.com/events`;
+  let url = "https://www.ufc.com/events";
   try {
     const response = await fetch(url);
     const text = await response.text();
@@ -17,7 +17,7 @@ async function getEventLinks() {
     // Extract the URLs of the relevant events from the DOM object
     let links = root.querySelectorAll(".c-card-event--result__headline");
     links = links.map(
-      (html) => "https://www.ufc.com" + html.firstChild.getAttribute("href")
+      (html) => `https://www.ufc.com${html.firstChild.getAttribute("href")}`
     );
 
     console.log("\nEvent links found:");
@@ -110,15 +110,9 @@ async function getDetailsFromEventLink(url) {
         ".c-listing-fight__ranks-row .js-listing-fight__corner-rank span"
       );
       ranks = ranks.map((rank) => rank?.innerText);
-      let fightStr =
-        "• " +
-        red +
-        (ranks[0] ? " (" + ranks[0] + ")" : "") +
-        " vs. " +
-        blue +
-        (ranks[1] ? " (" + ranks[1] + ")" : "") +
-        " @" +
-        bout;
+      let redRankStr = ranks[0] ? ` (${ranks[0]})` : "";
+      let blueRankStr = ranks[1] ? ` (${ranks[1]})` : "";
+      let fightStr = `• ${red}${redRankStr} vs. ${blue}${blueRankStr} @${bout}`;
 
       // Deentitize HTML entities
       fightStr = decode(fightStr);
@@ -168,7 +162,7 @@ async function getDetailsFromEventLink(url) {
     };
     return details;
   } catch (error) {
-    throw new Error("Failed to retrieve event: " + url + "\n" + error);
+    throw new Error(`Failed to retrieve event: ${url}\n${error}`);
   }
 }
 
