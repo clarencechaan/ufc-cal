@@ -42,32 +42,35 @@ async function createICS() {
       // Distinguish between main card and prelims if this information has been
       // announced by the UFC, otherwise list all fights without categorizing
       if (event.fightCard.length)
-        description += event.fightCard.join("\n") + "\n";
+        description = `${event.fightCard.join("\n")}\n`;
       if (event.mainCard.length)
-        description +=
-          "Main Card\n--------------------\n" +
-          event.mainCard.join("\n") +
-          "\n";
+        description += `Main Card\n--------------------\n${event.mainCard.join(
+          "\n"
+        )}\n`;
       if (event.prelims.length) {
-        let prelimsTime = new Date(parseInt(event.prelimsTime) * 1000);
-        let hoursAgo = (date - prelimsTime) / 1000 / 60 / 60;
-        description +=
-          `\nPrelims (${hoursAgo} hrs before Main)\n--------------------\n` +
-          event.prelims.join("\n") +
-          "\n";
+        description += "\nPrelims";
+        if (event.prelimsTime) {
+          let prelimsTime = new Date(parseInt(event.prelimsTime) * 1000);
+          let hoursAgo = (date - prelimsTime) / 1000 / 60 / 60;
+          description += ` (${hoursAgo} hrs before Main)`;
+        }
+        description += `\n--------------------\n${event.prelims.join("\n")}\n`;
       }
       if (event.earlyPrelims.length) {
-        let earlyPrelimsTime = new Date(
-          parseInt(event.earlyPrelimsTime) * 1000
-        );
-        let hoursAgo = (date - earlyPrelimsTime) / 1000 / 60 / 60;
-        description +=
-          `\nEarly Prelims (${hoursAgo} hrs before Main)\n--------------------\n` +
-          event.earlyPrelims.join("\n") +
-          "\n";
+        description += "\nEarly Prelims";
+        if (event.earlyPrelimsTime) {
+          let earlyPrelimsTime = new Date(
+            parseInt(event.earlyPrelimsTime) * 1000
+          );
+          let hoursAgo = (date - earlyPrelimsTime) / 1000 / 60 / 60;
+          description += ` (${hoursAgo} hrs before Main)`;
+        }
+        description += `\n--------------------\n${event.earlyPrelims.join(
+          "\n"
+        )}\n`;
       }
-      description += "\n" + event.url;
-      description += "\n\nAccurate as of " + dateTimestr;
+      description += `\n${event.url}`;
+      description += `\n\nAccurate as of ${dateTimestr}`;
 
       let location = event.location;
       let uid = event.url;
@@ -87,7 +90,7 @@ async function createICS() {
     console.log(events);
 
     // Create UFC.ics
-    writeFileSync(`UFC.ics`, createEvents(events).value);
+    writeFileSync("UFC.ics", createEvents(events).value);
   } catch (error) {
     console.error(error);
   }
