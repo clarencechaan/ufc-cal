@@ -1,7 +1,6 @@
 name: GitHub Self-Updating Repository
 
 on:
-  push:
   schedule:
     - cron: "0 */4 * * *"
 

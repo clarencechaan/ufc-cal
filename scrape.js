@@ -8,8 +8,13 @@ import { decode } from "html-entities";
  *     of URL strings of UFC events
  */
 async function getEventLinks() {
-  let url = "https://www.ufc.com/events";
-  try {
+  // Get first two pages of event links
+  let urls = [
+    "https://www.ufc.com/events?page=0",
+    "https://www.ufc.com/events?page=1",
+  ];
+
+  async function getEventLinksFromUrl(url) {
     const response = await fetch(url);
     const text = await response.text();
     const root = parse(text);
@@ -19,6 +24,15 @@ async function getEventLinks() {
     links = links.map(
       (html) => `https://www.ufc.com${html.firstChild.getAttribute("href")}`
     );
+
+    return links;
+  }
+
+  try {
+    urls = urls.map(getEventLinksFromUrl);
+
+    let links = await Promise.all(urls);
+    links = links.flat();
 
     console.log("\nEvent links found:");
     console.log(links);
