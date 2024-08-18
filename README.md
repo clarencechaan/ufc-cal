@@ -8,7 +8,7 @@ Or subscribe manually from your calendar app:
 
 ## What is this?
 
-A calendar feed you can subscribe to in order to have UFC events automatically added to your calendar app of choice, as each event gets announced and updated over time.
+A calendar feed that automatically adds UFC events to your calendar app of choice as each event gets announced and updated over time.
 
 This feed is not affiliated with the UFC.
 
