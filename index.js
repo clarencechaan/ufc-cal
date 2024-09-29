@@ -52,7 +52,7 @@ async function createICS() {
         if (event.prelimsTime) {
           let prelimsTime = new Date(parseInt(event.prelimsTime) * 1000);
           let hoursAgo = (date - prelimsTime) / 1000 / 60 / 60;
-          description += ` (${hoursAgo} hrs before Main)`;
+          if (hoursAgo > 0) description += ` (${hoursAgo} hrs before Main)`;
         }
         description += `\n--------------------\n${event.prelims.join("\n")}\n`;
       }
@@ -63,7 +63,7 @@ async function createICS() {
             parseInt(event.earlyPrelimsTime) * 1000
           );
           let hoursAgo = (date - earlyPrelimsTime) / 1000 / 60 / 60;
-          description += ` (${hoursAgo} hrs before Main)`;
+          if (hoursAgo > 0) description += ` (${hoursAgo} hrs before Main)`;
         }
         description += `\n--------------------\n${event.earlyPrelims.join(
           "\n"
