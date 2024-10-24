@@ -8,57 +8,57 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-308
 SUMMARY:UFC 308: Topuria vs Holloway
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20241026T180000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-308\n\nAccurate as of Oct 24\, 
-	12:16 PM EDT
+	4:16 PM EDT
 LOCATION:Etihad Arena\, Yas Island/Yas West United Arab Emirates
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-november-02-2024
 SUMMARY:UFC Fight Night: Moreno vs Albazi
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20241103T000000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-november-02-2024\n\
-	nAccurate as of Oct 24\, 12:16 PM EDT
+	nAccurate as of Oct 24\, 4:16 PM EDT
 LOCATION:Rogers Place\, Edmonton Canada
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-november-09-2024
 SUMMARY:UFC Fight Night: Magny vs Prates
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20241110T000000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-november-09-2024\n\
-	nAccurate as of Oct 24\, 12:16 PM EDT
+	nAccurate as of Oct 24\, 4:16 PM EDT
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-309
 SUMMARY:UFC 309: Jones vs Miocic
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20241117T030000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-309\n\nAccurate as of Oct 24\, 
-	12:16 PM EDT
+	4:16 PM EDT
 LOCATION:Madison Square Garden\, New York United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-november-23-2024
 SUMMARY:UFC Fight Night: Yan vs Figueiredo
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20241123T110000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-november-23-2024\n\
-	nAccurate as of Oct 24\, 12:16 PM EDT
+	nAccurate as of Oct 24\, 4:16 PM EDT
 LOCATION:Galaxy Arena\,  Macao SAR China
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-310
 SUMMARY:UFC 310: Muhammad vs Rakhmonov
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20241208T030000Z
 DESCRIPTION:• Belal Muhammad (C) vs. Shavkat Rakhmonov (#3) @170\n• Alexand
 	re Pantoja (C) vs. Kai Asakura @125\n• Ciryl Gane (#2) vs. Alexander Volko
@@ -67,188 +67,188 @@ DESCRIPTION:• Belal Muhammad (C) vs. Shavkat Rakhmonov (#3) @170\n• Alexand
 	Tallison Teixeira vs. Lukasz Brzeski @265\n• Cody Durden (#14) vs. Joshua 
 	Van @125\n• Clay Guida vs. Chase Hooper @155\n• Michael Chiesa vs. Max Gri
 	ffin @170\n• Anthony Smith (#12) vs. Dominick Reyes (#13) @205\n\nhttps://
-	www.ufc.com/event/ufc-310\n\nAccurate as of Oct 24\, 12:16 PM EDT
+	www.ufc.com/event/ufc-310\n\nAccurate as of Oct 24\, 4:16 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-december-14-2024
 SUMMARY:UFC Fight Night: TBD vs TBD
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20241215T030000Z
 DESCRIPTION:• Navajo Stirling vs. Tuco Tokkos @205\n\nhttps://www.ufc.com/e
-	vent/ufc-fight-night-december-14-2024\n\nAccurate as of Oct 24\, 12:16 PM 
-	EDT
+	vent/ufc-fight-night-december-14-2024\n\nAccurate as of Oct 24\, 4:16 PM E
+	DT
 LOCATION:Amalie Arena\, Tampa United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-312
 SUMMARY:UFC 312: TBD vs TBD
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20250210T030000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-312\n\nAccurate as of Oct 24\, 
-	12:16 PM EDT
+	4:16 PM EDT
 LOCATION:Qudos Bank Arena\, Sydney Olympic Park Australia
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-october-19-2024
 SUMMARY:UFC Fight Night: Hernandez vs Pereira
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20241019T230000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-october-19-2024\n\n
-	Accurate as of Oct 24\, 12:16 PM EDT
+	Accurate as of Oct 24\, 4:16 PM EDT
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-october-12-2024
 SUMMARY:UFC Fight Night: Royval vs Taira
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20241012T230000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-october-12-2024\n\n
-	Accurate as of Oct 24\, 12:16 PM EDT
+	Accurate as of Oct 24\, 4:16 PM EDT
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-307
 SUMMARY:UFC 307: Pereira vs Rountree Jr.
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20241006T020000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-307\n\nAccurate as of Oct 24\, 
-	12:16 PM EDT
+	4:16 PM EDT
 LOCATION:Delta Center\, Salt Lake City United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-september-28-2024
 SUMMARY:UFC Fight Night: Moicano vs Saint Denis
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20240928T190000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-september-28-2024\n
-	\nAccurate as of Oct 24\, 12:16 PM EDT
+	\nAccurate as of Oct 24\, 4:16 PM EDT
 LOCATION:Accor Arena\, Paris France
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/riyadh-season-noche-ufc
 SUMMARY:UFC 306: O'Malley vs Dvalishvili
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20240915T020000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/riyadh-season-noche-ufc\n\nAccurate
-	 as of Oct 24\, 12:16 PM EDT
+	 as of Oct 24\, 4:16 PM EDT
 LOCATION:Sphere\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-september-07-2024
 SUMMARY:UFC Fight Night: Burns vs Brady
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20240907T230000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-september-07-2024\n
-	\nAccurate as of Oct 24\, 12:16 PM EDT
+	\nAccurate as of Oct 24\, 4:16 PM EDT
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-august-24-2024
 SUMMARY:UFC Fight Night: Cannonier vs Borralho
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20240825T020000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-august-24-2024\n\nA
-	ccurate as of Oct 24\, 12:16 PM EDT
+	ccurate as of Oct 24\, 4:16 PM EDT
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-305
 SUMMARY:UFC 305: Du Plessis vs Adesanya
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20240818T020000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-305\n\nAccurate as of Oct 24\, 
-	12:16 PM EDT
+	4:16 PM EDT
 LOCATION:RAC Arena\, Perth Australia
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-august-10-2024
 SUMMARY:UFC Fight Night: Tybura vs Spivac 2
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20240810T230000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-august-10-2024\n\nA
-	ccurate as of Oct 24\, 12:16 PM EDT
+	ccurate as of Oct 24\, 4:16 PM EDT
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-august-03-2024
 SUMMARY:UFC Fight Night: Sandhagen vs Nurmagomedov
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20240803T190000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-august-03-2024\n\nA
-	ccurate as of Oct 24\, 12:16 PM EDT
+	ccurate as of Oct 24\, 4:16 PM EDT
 LOCATION:Etihad Arena\, Yas Island/Yas West United Arab Emirates
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-304
 SUMMARY:UFC 304: Edwards vs Muhammad 2
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20240728T020000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-304\n\nAccurate as of Oct 24\, 
-	12:16 PM EDT
+	4:16 PM EDT
 LOCATION:Co-op Live\, Manchester United Kingdom
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-july-20-2024
 SUMMARY:UFC Fight Night: Lemos vs Jandiroba
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20240721T000000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-july-20-2024\n\nAcc
-	urate as of Oct 24\, 12:16 PM EDT
+	urate as of Oct 24\, 4:16 PM EDT
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-july-13-2024
 SUMMARY:UFC Fight Night: Namajunas vs Cortez
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20240714T020000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-july-13-2024\n\nAcc
-	urate as of Oct 24\, 12:16 PM EDT
+	urate as of Oct 24\, 4:16 PM EDT
 LOCATION:Ball Arena\, Denver United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-303
 SUMMARY:UFC 303: Pereira vs Prochazka 2
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20240630T020000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-303\n\nAccurate as of Oct 24\, 
-	12:16 PM EDT
+	4:16 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-june-22-2024
 SUMMARY:UFC Fight Night: Whittaker vs Aliskerov
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20240622T190000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-june-22-2024\n\nAcc
-	urate as of Oct 24\, 12:16 PM EDT
+	urate as of Oct 24\, 4:16 PM EDT
 LOCATION:Kingdom Arena\, Riyadh Saudi Arabia
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-june-15-2024
 SUMMARY:UFC Fight Night: Perez vs Taira
-DTSTAMP:20241024T161650Z
+DTSTAMP:20241024T201637Z
 DTSTART:20240616T020000Z
 DESCRIPTION:\nhttps://www.ufc.com/event/ufc-fight-night-june-15-2024\n\nAcc
-	urate as of Oct 24\, 12:16 PM EDT
+	urate as of Oct 24\, 4:16 PM EDT
 LOCATION:UFC APEX\, Las Vegas United States
 DURATION:PT3H
 END:VEVENT
