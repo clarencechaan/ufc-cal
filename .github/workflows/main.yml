@@ -15,6 +15,7 @@ jobs:
           ref: ics
       - name: Create UFC.ics
         run: |
+          npm install
           npm start
       - name: Push to repository
         run: |
