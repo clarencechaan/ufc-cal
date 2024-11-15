@@ -32,4 +32,4 @@ The three biggest points that this aims to address, which I found lacking in oth
   
 **To run locally:**
 
-- Clone this repo, run the command `npm start`, and out spits your `UFC.ics` file with all the relevant UFC events
+- Clone this repo, run the commands `npm install`, then `npm start`, and out spits your `UFC.ics` file with all the relevant UFC events
