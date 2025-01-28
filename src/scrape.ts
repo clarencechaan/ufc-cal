@@ -91,11 +91,13 @@ function convertLiToStr(li: HTMLElement) {
     ?.textContent?.replaceAll("\n", "")
     .replace(/\s+/g, " ")
     .trim();
-  const ranks = [
-    ...li.querySelectorAll(
+  if (!red || !blue) throw new Error("Failed to retrieve fighter names");
+
+  const ranks = li
+    .querySelectorAll(
       ".c-listing-fight__ranks-row .js-listing-fight__corner-rank span"
-    ),
-  ].map((rank) => rank?.textContent);
+    )
+    .map((rank) => rank?.textContent);
 
   const redRankStr = ranks[0] ? ` (${ranks[0]})` : "";
   const blueRankStr = ranks[1] ? ` (${ranks[1]})` : "";
@@ -151,7 +153,7 @@ async function getDetailsFromEventLink(url: URL) {
     const mainCardElements = root.querySelectorAll(
       "#main-card .l-listing__item"
     );
-    // Check if main card & prelims have been announced
+    // Check if main card and prelims have been announced
     if (mainCardElements.length) {
       // Main card has been announced, extract prelims
       const prelimsElements = root.querySelectorAll(
