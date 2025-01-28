@@ -65,7 +65,8 @@ function formatEventForCalendar(event: UFCEvent) {
     }
     description += `\n--------------------\n${event.earlyPrelims.join("\n")}\n`;
   }
-  description += `\n${event.url}`;
+  if (description.length) description += "\n";
+  description += `${event.url}`;
 
   // Get current date and time to communicate to the user how up-to-date
   // the event details are

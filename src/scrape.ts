@@ -99,7 +99,7 @@ function convertLiToStr(li: HTMLElement) {
 
   const redRankStr = ranks[0] ? ` (${ranks[0]})` : "";
   const blueRankStr = ranks[1] ? ` (${ranks[1]})` : "";
-  fightStr += `• ${red}${redRankStr} vs. ${blue}${blueRankStr} @${bout}`;
+  fightStr += `• ${red}${redRankStr} vs. ${blue}${blueRankStr} @${weightClass}`;
 
   // Deentitize HTML entities
   fightStr = decode(fightStr);
