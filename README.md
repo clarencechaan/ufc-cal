@@ -22,7 +22,7 @@ The three biggest points that this aims to address, which I found lacking in oth
 
 ## Example event
 
-![Example event](./ufc-cal-example.png)
+![Example event](./src/assets/ufc-cal-example.png)
 
 ## Info for nerds
 
