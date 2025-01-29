@@ -1,6 +1,6 @@
 import { getAllDetailedEvents } from "./scrape.js";
 import * as fs from "fs";
-import { createEvents, DateArray, EventAttributes } from "ics";
+import { createEvents, type DateArray, type EventAttributes } from "ics";
 
 /**
  * Extracts the details of recent and upcoming UFC events, then creates an
