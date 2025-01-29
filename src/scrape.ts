@@ -11,7 +11,22 @@ async function getEventURLs() {
     new URL("https://www.ufc.com/events?page=1"),
   ];
 
-  async function getEventLinksFromUrl(url: URL) {
+  try {
+    const eventURLs = (
+      await Promise.all(pageURLs.map(getEventURLsFromPageURL))
+    ).flat();
+
+    console.log("\nEvent URLs found:");
+    console.log(eventURLs);
+    return eventURLs;
+  } catch (error) {
+    console.error(error);
+    throw new Error("Failed to retrieve event URLs");
+  }
+}
+
+async function getEventURLsFromPageURL(url: URL) {
+  try {
     const response = await fetch(url);
     const text = await response.text();
     const root = parse(text);
@@ -30,24 +45,14 @@ async function getEventURLs() {
     );
 
     return eventURLs;
-  }
-
-  try {
-    const eventURLs = (
-      await Promise.all(pageURLs.map(getEventLinksFromUrl))
-    ).flat();
-
-    console.log("\nEvent URLs found:");
-    console.log(eventURLs);
-    return eventURLs;
   } catch (error) {
     console.error(error);
+    throw new Error("Failed to retrieve event URLs from page URL");
   }
 }
 
 /**
- * Helper function to return the output string of a fight given its HTML
- * element list item
+ * Returns the output string of a fight given its HTML element list item
  */
 function convertLiToStr(li: HTMLElement) {
   const bout = li.querySelector(".c-listing-fight__class-text")?.textContent;
@@ -112,7 +117,7 @@ function convertLiToStr(li: HTMLElement) {
 /**
  * Returns the fight card details of a UFC event given its URL
  */
-async function getDetailsFromEventLink(url: URL) {
+async function getDetailsFromEventURL(url: URL) {
   try {
     const response = await fetch(url);
     const text = await response.text();
@@ -201,6 +206,7 @@ async function getDetailsFromEventLink(url: URL) {
     };
     return details;
   } catch (error) {
+    console.error(error);
     throw new Error(`Failed to retrieve event: ${url.href}\n${error}`);
   }
 }
@@ -212,13 +218,14 @@ async function getAllDetailedEvents() {
   try {
     const eventURLs = await getEventURLs();
 
-    // Convert each URL to the details of the corresponding UFC event
+    // Get UFC events from URLs
     const detailedEvents = await Promise.all(
-      eventURLs?.map(getDetailsFromEventLink) ?? []
+      eventURLs?.map(getDetailsFromEventURL)
     );
     return detailedEvents;
   } catch (error) {
     console.error(error);
+    throw new Error("Failed to retrieve all events");
   }
 }
 

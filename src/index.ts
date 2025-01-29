@@ -3,7 +3,7 @@ import * as fs from "fs";
 import { createEvents, DateArray, EventAttributes } from "ics";
 
 /**
- * Extracts the details of recent and near-future UFC events, then creates an
+ * Extracts the details of recent and upcoming UFC events, then creates an
  * ICS file named "UFC.ics" in the current directory containing these events
  */
 async function createICS() {
@@ -25,7 +25,7 @@ async function createICS() {
   }
 }
 
-function formatEventForCalendar(event: UFCEvent) {
+function formatEventForCalendar(event: UFCEvent): EventAttributes {
   const date = new Date(parseInt(event.date) * 1000);
   const start: DateArray = [
     date.getFullYear(),
@@ -84,7 +84,7 @@ function formatEventForCalendar(event: UFCEvent) {
   const uid = event.url.href;
   const calName = "UFC";
 
-  const calendarEvent: EventAttributes = {
+  const calendarEvent = {
     start,
     duration,
     title,
