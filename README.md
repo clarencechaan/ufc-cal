@@ -2,7 +2,7 @@
 
 [Subscribe to this calendar to keep track of UFC events](https://clarencechaan.github.io/ufc-cal/)
 
-Or subscribe manually from your calendar app:
+Or subscribe manually from your calendar app using this URL:
 
 `webcal://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/UFC.ics`
 
@@ -22,7 +22,7 @@ The three biggest points that this aims to address, which I found lacking in oth
 
 ## Example event
 
-![Example event](./ufc-cal-example.png)
+![Example event](./src/assets/ufc-cal-example.png)
 
 ## Info for nerds
 
@@ -32,4 +32,4 @@ The three biggest points that this aims to address, which I found lacking in oth
   
 **To run locally:**
 
-- Clone this repo, run the command `npm start`, and out spits your `UFC.ics` file with all the relevant UFC events
+- Clone this repo, run the commands `npm install`, then `npm start`, and out spits your `UFC.ics` file with all the relevant UFC events
