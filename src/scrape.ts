@@ -17,7 +17,7 @@ async function getEventURLs() {
     ).flat();
 
     console.log("\nEvent URLs found:");
-    console.log(eventURLs);
+    console.log(eventURLs.map((url) => url.href));
     return eventURLs;
   } catch (error) {
     console.error(error);
