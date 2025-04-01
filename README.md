@@ -16,7 +16,7 @@ This feed is not affiliated with the UFC.
 
 The three biggest points that this aims to address, which I found lacking in other calendar feeds:
 
-- **Always kept up to date**: events are added and card details are updated within a day of the UFC posting an event or adding/removing fights to/from a previously announced event
+- **Always kept up to date**: events are added and card details are updated within a day of any changes posted by the UFC, including new events, fight additions, or removals
 - **Event times are accurate**: event times reflect your local timezone, and always match the times posted by the UFC
 - **Card details**: without leaving your calendar, you can see every (announced) fight on the card, whether it's on the main card, prelims, or early prelims
 
