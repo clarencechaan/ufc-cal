@@ -86,17 +86,18 @@ function convertLiToStr(li: HTMLElement) {
   else if (bout.includes("Catchweight")) weightClass = "CW";
 
   // Extract and format fighter names with weightclass
-  const red = li
-    .querySelector(".c-listing-fight__corner-name--red")
-    ?.textContent?.replaceAll("\n", "")
-    .replace(/\s+/g, " ")
-    .trim();
-  const blue = li
-    .querySelector(".c-listing-fight__corner-name--blue")
-    ?.textContent?.replaceAll("\n", "")
-    .replace(/\s+/g, " ")
-    .trim();
-  if (!red || !blue) throw new Error("Failed to retrieve fighter names");
+  const red =
+    li
+      .querySelector(".c-listing-fight__corner-name--red")
+      ?.textContent?.replaceAll("\n", "")
+      .replace(/\s+/g, " ")
+      .trim() || "___";
+  const blue =
+    li
+      .querySelector(".c-listing-fight__corner-name--blue")
+      ?.textContent?.replaceAll("\n", "")
+      .replace(/\s+/g, " ")
+      .trim() || "___";
 
   const ranks = li
     .querySelectorAll(
