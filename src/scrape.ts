@@ -147,8 +147,11 @@ async function getDetailsFromEventURL(url: URL) {
     let location =
       root
         .querySelector(".field--name-venue")
-        ?.innerText.replaceAll("\n", "")
-        .replaceAll("   ", " ") || "";
+        ?.innerText.replaceAll(",", "")
+        .split("\n")
+        .filter((str) => str)
+        .map((str) => str.trim())
+        .join(", ") || "";
     let fightCard: string[] = [];
     let mainCard: string[] = [];
     let prelims: string[] = [];
@@ -231,3 +234,5 @@ async function getAllDetailedEvents() {
 }
 
 export { getAllDetailedEvents };
+
+getDetailsFromEventURL(new URL("https://www.ufc.com/event/ufc-312"));
