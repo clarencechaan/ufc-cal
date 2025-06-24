@@ -21,6 +21,6 @@ jobs:
         run: |
           git config --global user.name "Clarence Chan"
           git config --global user.email "clarencechaan@icloud.com"
-          git add UFC.ics
-          git commit -m "Update UFC.ics"
+          git add UFC.ics UFC-PPV.ics
+          git commit -m "Update UFC.ics and UFC-PPV.ics"
           git push -u origin ics
