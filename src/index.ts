@@ -12,7 +12,9 @@ async function createICS() {
     if (!events?.length) throw new Error("No events retrieved");
 
     // Convert event details in the format in accordance with the ICS generator
-    const formattedEvents = events.map(formatEventForCalendar);
+    const formattedEvents = events.map((event) =>
+      formatEventForCalendar(event, "UFC")
+    );
 
     console.log("\nDetailed events:");
     console.log(formattedEvents);
@@ -20,12 +22,25 @@ async function createICS() {
     // Create UFC.ics
     const eventsData = createEvents(formattedEvents).value;
     if (eventsData) fs.writeFileSync("UFC.ics", eventsData);
+
+    // Filter for PPV events only
+    const ppvEvents = events.filter((event) => /^UFC \d+/.test(event.name));
+    const formattedPPVEvents = ppvEvents.map((event) =>
+      formatEventForCalendar(event, "UFC-PPV")
+    );
+
+    // Create UFC-PPV.ics
+    const ppvEventsData = createEvents(formattedPPVEvents).value;
+    if (ppvEventsData) fs.writeFileSync("UFC-PPV.ics", ppvEventsData);
   } catch (error) {
     console.error(error);
   }
 }
 
-function formatEventForCalendar(event: UFCEvent): EventAttributes {
+function formatEventForCalendar(
+  event: UFCEvent,
+  calName = "UFC"
+): EventAttributes {
   const date = new Date(parseInt(event.date) * 1000);
   const start: DateArray = [
     date.getFullYear(),
@@ -82,7 +97,6 @@ function formatEventForCalendar(event: UFCEvent): EventAttributes {
 
   const location = event.location;
   const uid = event.url.href;
-  const calName = "UFC";
 
   const calendarEvent = {
     start,

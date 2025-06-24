@@ -20,6 +20,27 @@
         background-color: rgb(243, 243, 243);
         font-family: "Inter", sans-serif;
       }
+      .calendar-type-selector {
+        margin: 20px 0;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .calendar-type-selector label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 1;
+      }
+      .calendar-type-selector input[type="radio"] {
+        cursor: pointer;
+        width: 18px;
+        height: 18px;
+        margin: 0;
+      }
       .links {
         margin: 40px 20px;
         display: flex;
@@ -65,15 +86,38 @@
   </head>
   <body>
     <h1>Subscribe to this calendar to keep track of UFC events</h1>
+    <div class="calendar-type-selector">
+      <label>
+        <input
+          type="radio"
+          name="calendar-type"
+          value="all"
+          checked
+          onchange="updateCalendarLinks('all')"
+        />
+        <span>All UFC Events</span>
+      </label>
+      <label>
+        <input
+          type="radio"
+          name="calendar-type"
+          value="ppv"
+          onchange="updateCalendarLinks('ppv')"
+        />
+        <span>PPV Events Only</span>
+      </label>
+    </div>
     <div class="links">
       <a
         class="sub-link"
+        id="apple-link"
         href="webcal://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/UFC.ics"
         ><img src="./src/assets/apple.svg" alt="apple" />
         <div>Apple</div>
       </a>
       <a
         class="sub-link"
+        id="google-link"
         href="https://calendar.google.com/calendar/u/0/r?cid=webcal://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/UFC.ics"
         ><img src="./src/assets/google.svg" alt="google" />
         <div>Google</div>
@@ -82,7 +126,7 @@
     <div class="sub-manual">
       <p>Or subscribe manually from your calendar app using this URL:</p>
       <div class="code-wrapper">
-        <code
+        <code id="manual-url"
           >webcal://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/UFC.ics</code
         >
       </div>
@@ -93,5 +137,18 @@
         >Source code on GitHub</a
       >
     </p>
+    <script>
+      function updateCalendarLinks(type) {
+        const filename = type === "ppv" ? "UFC-PPV.ics" : "UFC.ics";
+        const baseUrl =
+          "webcal://raw.githubusercontent.com/clarencechaan/ufc-cal/ics/";
+        const fullUrl = baseUrl + filename;
+
+        document.getElementById("apple-link").href = fullUrl;
+        document.getElementById("google-link").href =
+          "https://calendar.google.com/calendar/u/0/r?cid=" + fullUrl;
+        document.getElementById("manual-url").textContent = fullUrl;
+      }
+    </script>
   </body>
 </html>
