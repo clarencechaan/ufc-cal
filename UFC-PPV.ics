@@ -8,26 +8,26 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-317
 SUMMARY:UFC 317: Topuria vs Oliveira
-DTSTAMP:20250626T042626Z
+DTSTAMP:20250626T082325Z
 DTSTART:20250629T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Ilia Topuria (#2) vs. Charle
 	s Oliveira @155\n• Alexandre Pantoja (C) vs. Kai Kara-France (#4) @125\n• 
-	Brandon Royval vs. Joshua Van\n• Beneil Dariush (#9) vs. Renato Moicano (#
-	11) @155\n• Payton Talbott vs. Felipe Lima @135\n\nPrelims (2 hrs before M
-	ain)\n--------------------\n• Jack Hermansson vs. Gregory Rodrigues @185\n
-	• Hyder Amil vs. Jose Miguel Delgado @145\n• Viviane Araújo (#8) vs. Tracy
-	 Cortez (#10) @125\n• Terrance McKinney vs. Viacheslav Borshchev @155\n\nE
-	arly Prelims (3.5 hrs before Main)\n--------------------\n• Niko Price vs.
-	 Jacobe Smith @170\n• Jhonata Diniz vs. Alvin Hines @265\n• Christopher Ew
-	ert vs. Jackson McVey @185\n\nhttps://www.ufc.com/event/ufc-317\n\nAccurat
-	e as of Jun 26\, 12:26 AM EDT
+	Brandon Royval (#1) vs. Joshua Van (#12) @125\n• Beneil Dariush (#9) vs. R
+	enato Moicano (#11) @155\n• Payton Talbott vs. Felipe Lima @135\n\nPrelims
+	 (2 hrs before Main)\n--------------------\n• Jack Hermansson vs. Gregory 
+	Rodrigues\n• Hyder Amil vs. Jose Miguel Delgado @145\n• Viviane Araújo (#8
+	) vs. Tracy Cortez (#10) @125\n• Terrance McKinney vs. Viacheslav Borshche
+	v @155\n\nEarly Prelims (3.5 hrs before Main)\n--------------------\n• Nik
+	o Price vs. Jacobe Smith @170\n• Jhonata Diniz vs. Alvin Hines @265\n• Chr
+	istopher Ewert vs. Jackson McVey @185\n\nhttps://www.ufc.com/event/ufc-317
+	\n\nAccurate as of Jun 26\, 4:23 AM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-318
 SUMMARY:UFC 318: Holloway vs Poirier 3
-DTSTAMP:20250626T042626Z
+DTSTAMP:20250626T082325Z
 DTSTART:20250720T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Max Holloway (#4) vs. Dustin
 	 Poirier (#5) @155\n• Ateba Gautier vs. Robert Valentin @185\n• Paulo Cost
@@ -38,14 +38,14 @@ DESCRIPTION:Main Card\n--------------------\n• Max Holloway (#4) vs. Dustin
 	y Prelims (3.75 hrs before Main)\n--------------------\n• Neil Magny vs. G
 	unnar Nelson @170\n• Jimmy Crute vs. Marcin Prachnio @205\n• Adam Fugitt v
 	s. Islam Dulatov @170\n• Carli Judice vs. Nicolle Caliari @125\n\nhttps://
-	www.ufc.com/event/ufc-318\n\nAccurate as of Jun 26\, 12:26 AM EDT
+	www.ufc.com/event/ufc-318\n\nAccurate as of Jun 26\, 4:23 AM EDT
 LOCATION:Smoothie King Center\, New Orleans\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-319
 SUMMARY:UFC 319: Du Plessis vs Chimaev
-DTSTAMP:20250626T042626Z
+DTSTAMP:20250626T082325Z
 DTSTART:20250817T020000Z
 DESCRIPTION:• Dricus Du Plessis (C) vs. Khamzat Chimaev (#3) @185\n• Jared 
 	Cannonier (#7) vs. Michael Page (#15) @185\n• Gerald Meerschaert vs. Micha
@@ -54,14 +54,14 @@ DESCRIPTION:• Dricus Du Plessis (C) vs. Khamzat Chimaev (#3) @185\n• Jared
 	 Bryan Battle vs. Nursulton Ruziboev @185\n• Tim Elliott (#10) vs. Kai Asa
 	kura (#14) @125\n• Chase Hooper vs. Alexander Hernandez @155\n• Jéssica An
 	drade (#5) vs. Loopy Godinez (#11) @115\n\nhttps://www.ufc.com/event/ufc-3
-	19\n\nAccurate as of Jun 26\, 12:26 AM EDT
+	19\n\nAccurate as of Jun 26\, 4:23 AM EDT
 LOCATION:United Center\, Chicago\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-316
 SUMMARY:UFC 316: Dvalishvili vs O'Malley 2
-DTSTAMP:20250626T042626Z
+DTSTAMP:20250626T082325Z
 DTSTART:20250608T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Merab Dvalishvili (C) vs. Se
 	an O'Malley (#1) @135\n• Julianna Peña (C) vs. Kayla Harrison (#2) @135\n•
@@ -74,14 +74,14 @@ DESCRIPTION:Main Card\n--------------------\n• Merab Dvalishvili (C) vs. Se
 	 Ariane da Silva (#13) vs. Wang Cong @125\n• Jeka Saragih vs. JooSang Yoo 
 	@145\n• Quillan Salkilld vs. Yanal Ashmouz @155\n• MarQuel Mederos vs. Mar
 	k Choinski @155\n\nhttps://www.ufc.com/event/ufc-316\n\nAccurate as of Jun
-	 26\, 12:26 AM EDT
+	 26\, 4:23 AM EDT
 LOCATION:Prudential Center\, Newark\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-315
 SUMMARY:UFC 315: Muhammad vs Della Maddalena
-DTSTAMP:20250626T042626Z
+DTSTAMP:20250626T082325Z
 DTSTART:20250511T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Belal Muhammad (C) vs. Jack 
 	Della Maddalena (#5) @170\n• Valentina Shevchenko (C) vs. Manon Fiorot (#2
@@ -93,24 +93,24 @@ DESCRIPTION:Main Card\n--------------------\n• Belal Muhammad (C) vs. Jack
 	vs. Ivan Erslan @205\n\nEarly Prelims (3.5 hrs before Main)\n-------------
 	-------\n• Marc-Andre Barriault vs. Bruno Silva @185\n• Daniel Santos vs. 
 	JeongYeong Lee @145\n• Brad Katona vs. Bekzat Almakhan @135\n\nhttps://www
-	.ufc.com/event/ufc-315\n\nAccurate as of Jun 26\, 12:26 AM EDT
+	.ufc.com/event/ufc-315\n\nAccurate as of Jun 26\, 4:23 AM EDT
 LOCATION:Bell Centre\, Montréal\, Canada
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-320
 SUMMARY:UFC 320: TBD vs TBD
-DTSTAMP:20250626T042626Z
+DTSTAMP:20250626T082325Z
 DTSTART:20251005T020000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-320\n\nAccurate as of Jun 26\, 12
-	:26 AM EDT
+DESCRIPTION:https://www.ufc.com/event/ufc-320\n\nAccurate as of Jun 26\, 4:
+	23 AM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-314
 SUMMARY:UFC 314: Volkanovski vs Lopes
-DTSTAMP:20250626T042626Z
+DTSTAMP:20250626T082325Z
 DTSTART:20250413T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Alexander Volkanovski (#1) v
 	s. Diego Lopes (#3) @145\n• Michael Chandler (#7) vs. Paddy Pimblett (#12)
@@ -122,15 +122,15 @@ DESCRIPTION:Main Card\n--------------------\n• Alexander Volkanovski (#1) v
 	nEarly Prelims (4 hrs before Main)\n--------------------\n• Sedriques Duma
 	s vs. Michal Oleksiejczuk @185\n• Sumudaerji vs. Mitch Raposo @125\n• Tres
 	ean Gore vs. Marco Tulio @185\n• Nora Cornolle (#13) vs. Hailey Cowan @135
-	\n\nhttps://www.ufc.com/event/ufc-314\n\nAccurate as of Jun 26\, 12:26 AM 
-	EDT
+	\n\nhttps://www.ufc.com/event/ufc-314\n\nAccurate as of Jun 26\, 4:23 AM E
+	DT
 LOCATION:Kaseya Center\, Miami\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-313
 SUMMARY:UFC 313: Pereira vs Ankalaev
-DTSTAMP:20250626T042626Z
+DTSTAMP:20250626T082325Z
 DTSTART:20250309T030000Z
 DESCRIPTION:Main Card\n--------------------\n• Alex Pereira (C) vs. Magomed
 	 Ankalaev (#1) @205\n• Justin Gaethje (#3) vs. Rafael Fiziev (#11) @155\n•
@@ -140,8 +140,8 @@ DESCRIPTION:Main Card\n--------------------\n• Alex Pereira (C) vs. Magomed
 	5\n• Brunno Ferreira vs. Armen Petrosyan @185\n• Alex Morono vs. Carlos Le
 	al @170\n• Mairon Santos vs. Francis Marshall @145\n\nEarly Prelims (3.5 h
 	rs before Main)\n--------------------\n• Djorden Santos vs. Ozzy Diaz @185
-	\n\nhttps://www.ufc.com/event/ufc-313\n\nAccurate as of Jun 26\, 12:26 AM 
-	EDT
+	\n\nhttps://www.ufc.com/event/ufc-313\n\nAccurate as of Jun 26\, 4:23 AM E
+	DT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
