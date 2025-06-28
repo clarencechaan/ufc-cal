@@ -101,9 +101,9 @@ function convertLiToStr(li: HTMLElement) {
 
   const ranks = li
     .querySelectorAll(
-      ".c-listing-fight__ranks-row .js-listing-fight__corner-rank span"
+      ".js-listing-fight__corner-rank.c-listing-fight__corner-rank"
     )
-    .map((rank) => rank?.textContent);
+    .map((rank) => rank?.textContent.trim());
 
   const redRankStr = ranks[0] ? ` (${ranks[0]})` : "";
   const blueRankStr = ranks[1] ? ` (${ranks[1]})` : "";
@@ -234,5 +234,3 @@ async function getAllDetailedEvents() {
 }
 
 export { getAllDetailedEvents };
-
-getDetailsFromEventURL(new URL("https://www.ufc.com/event/ufc-312"));
