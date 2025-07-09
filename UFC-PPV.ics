@@ -8,151 +8,144 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-318
 SUMMARY:UFC 318: Holloway vs Poirier 3
-DTSTAMP:20250709T162040Z
+DTSTAMP:20250709T201912Z
 DTSTART:20250720T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Max Holloway (#5) vs. Dustin
-	 Poirier (#6) @155\n• Paulo Costa (#13) vs. Roman Kopylov (#14) @185\n• Ke
-	vin Holland (#14) vs. Daniel Rodriguez @170\n• Dan Ige (#12) vs. Patricio 
-	Pitbull @145\n• Michael Johnson vs. Daniel Zellhuber @155\n\nPrelims (2 hr
-	s before Main)\n--------------------\n• Kyler Phillips (#12) vs. Vinicius 
-	Oliveira (#15) @135\n• Marvin Vettori (#10) vs. Brendan Allen (#11) @185\n
-	• Francisco Prado vs. Nikolay Veretennikov @170\n• Ateba Gautier vs. Rober
-	t Valentin @185\n\nEarly Prelims (3.75 hrs before Main)\n-----------------
-	---\n• Adam Fugitt vs. Islam Dulatov @170\n• Jimmy Crute vs. Marcin Prachn
-	io @205\n• Ryan Spann vs. Lukasz Brzeski @265\n• Brunno Ferreira vs. Jacks
-	on McVey @185\n• Carli Judice vs. Nicolle Caliari @125\n\nhttps://www.ufc.
-	com/event/ufc-318\n\nAccurate as of Jul 9\, 12:20 PM EDT
+	 Poirier (#6) @\n• Paulo Costa (#13) vs. Roman Kopylov (#14) @\n• Kevin Ho
+	lland (#14) vs. Daniel Rodriguez @\n• Dan Ige (#12) vs. Patricio Pitbull @
+	\n• Michael Johnson vs. Daniel Zellhuber @\n\nPrelims\n-------------------
+	-\n• Kyler Phillips (#12) vs. Vinicius Oliveira (#15) @\n• Marvin Vettori 
+	(#10) vs. Brendan Allen (#11) @\n• Francisco Prado vs. Nikolay Veretenniko
+	v @\n• Ateba Gautier vs. Robert Valentin @\n\nEarly Prelims\n-------------
+	-------\n• Adam Fugitt vs. Islam Dulatov @\n• Jimmy Crute vs. Marcin Prach
+	nio @\n• Ryan Spann vs. Lukasz Brzeski @\n• Brunno Ferreira vs. Jackson Mc
+	Vey @\n• Carli Judice vs. Nicolle Caliari @\n\nhttps://www.ufc.com/event/u
+	fc-318\n\nAccurate as of Jul 9\, 4:19 PM EDT
 LOCATION:Smoothie King Center\, New Orleans\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-319
 SUMMARY:UFC 319: Du Plessis vs Chimaev
-DTSTAMP:20250709T162040Z
+DTSTAMP:20250709T201912Z
 DTSTART:20250817T020000Z
-DESCRIPTION:• Dricus Du Plessis (C) vs. Khamzat Chimaev (#3) @185\n• Jared 
-	Cannonier (#7) vs. Michael Page (#15) @185\n• Gerald Meerschaert vs. Micha
-	l Oleksiejczuk @185\n• Edson Barboza vs. Drakkar Klose @155\n• King Green 
-	vs. Diego Ferreira @155\n• Karine Silva (#12) vs. JJ Aldrich (#15) @125\n•
-	 Bryan Battle vs. Nursulton Ruziboev @185\n• Tim Elliott (#11) vs. Kai Asa
-	kura (#15) @125\n• Chase Hooper vs. Alexander Hernandez @155\n• Jéssica An
-	drade (#5) vs. Loopy Godinez (#11) @115\n\nhttps://www.ufc.com/event/ufc-3
-	19\n\nAccurate as of Jul 9\, 12:20 PM EDT
+DESCRIPTION:• Dricus Du Plessis (C) vs. Khamzat Chimaev (#3) @\n• Jared Can
+	nonier (#7) vs. Michael Page (#15) @\n• Gerald Meerschaert vs. Michal Olek
+	siejczuk @\n• Edson Barboza vs. Drakkar Klose @\n• King Green vs. Diego Fe
+	rreira @\n• Karine Silva (#12) vs. JJ Aldrich (#15) @\n• Bryan Battle vs. 
+	Nursulton Ruziboev @\n• Tim Elliott (#11) vs. Kai Asakura (#15) @\n• Chase
+	 Hooper vs. Alexander Hernandez @\n• Jéssica Andrade (#5) vs. Loopy Godine
+	z (#11) @\n\nhttps://www.ufc.com/event/ufc-319\n\nAccurate as of Jul 9\, 4
+	:19 PM EDT
 LOCATION:United Center\, Chicago\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-317
 SUMMARY:UFC 317: Topuria vs Oliveira
-DTSTAMP:20250709T162040Z
+DTSTAMP:20250709T201912Z
 DTSTART:20250629T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Ilia Topuria vs. Charles Oli
-	veira (#2) @155\n• Alexandre Pantoja (C) vs. Kai Kara-France (#4) @125\n• 
-	Brandon Royval (#1) vs. Joshua Van (#12) @125\n• Beneil Dariush (#9) vs. R
-	enato Moicano (#11) @155\n• Payton Talbott vs. Felipe Lima @135\n\nPrelims
-	 (2 hrs before Main)\n--------------------\n• Jack Hermansson vs. Gregory 
-	Rodrigues @185\n• Hyder Amil vs. Jose Miguel Delgado @145\n• Viviane Araúj
-	o (#8) vs. Tracy Cortez (#10) @125\n• Terrance McKinney vs. Viacheslav Bor
-	shchev @155\n\nEarly Prelims (3 hrs before Main)\n--------------------\n• 
-	Niko Price vs. Jacobe Smith @170\n• Jhonata Diniz vs. Alvin Hines @265\n\n
-	https://www.ufc.com/event/ufc-317\n\nAccurate as of Jul 9\, 12:20 PM EDT
+	veira (#2) @\n• Alexandre Pantoja (C) vs. Kai Kara-France (#4) @\n• Brando
+	n Royval (#1) vs. Joshua Van (#12) @\n• Beneil Dariush (#9) vs. Renato Moi
+	cano (#11) @\n• Payton Talbott vs. Felipe Lima @\n\nPrelims\n-------------
+	-------\n• Jack Hermansson vs. Gregory Rodrigues @\n• Hyder Amil vs. Jose 
+	Miguel Delgado @\n• Viviane Araújo (#8) vs. Tracy Cortez (#10) @\n• Terran
+	ce McKinney vs. Viacheslav Borshchev @\n\nEarly Prelims\n-----------------
+	---\n• Niko Price vs. Jacobe Smith @\n• Jhonata Diniz vs. Alvin Hines @\n\
+	nhttps://www.ufc.com/event/ufc-317\n\nAccurate as of Jul 9\, 4:19 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-316
 SUMMARY:UFC 316: Dvalishvili vs O'Malley 2
-DTSTAMP:20250709T162040Z
+DTSTAMP:20250709T201912Z
 DTSTART:20250608T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Merab Dvalishvili (C) vs. Se
-	an O'Malley (#1) @135\n• Julianna Peña (C) vs. Kayla Harrison (#2) @135\n•
-	 Kelvin Gastelum vs. Joe Pyfer @185\n• Mario Bautista (#10) vs. Patchy Mix
-	 @135\n• Vicente Luque (#14) vs. Kevin Holland @170\n\nPrelims (2 hrs befo
-	re Main)\n--------------------\n• Bruno Silva (#12) vs. Joshua Van (#14) @
-	125\n• Azamat Murzakanov (#12) vs. Brendson Ribeiro @205\n• Serghei Spivac
-	 (#7) vs. Waldo Cortes Acosta (#11) @265\n• Khaos Williams vs. Andreas Gus
-	tafsson @170\n\nEarly Prelims (4 hrs before Main)\n--------------------\n•
-	 Ariane da Silva (#13) vs. Wang Cong @125\n• Jeka Saragih vs. JooSang Yoo 
-	@145\n• Quillan Salkilld vs. Yanal Ashmouz @155\n• MarQuel Mederos vs. Mar
-	k Choinski @155\n\nhttps://www.ufc.com/event/ufc-316\n\nAccurate as of Jul
-	 9\, 12:20 PM EDT
+	an O'Malley (#1) @\n• Julianna Peña (C) vs. Kayla Harrison (#2) @\n• Kelvi
+	n Gastelum vs. Joe Pyfer @\n• Mario Bautista (#10) vs. Patchy Mix @\n• Vic
+	ente Luque (#14) vs. Kevin Holland @\n\nPrelims\n--------------------\n• B
+	runo Silva (#12) vs. Joshua Van (#14) @\n• Azamat Murzakanov (#12) vs. Bre
+	ndson Ribeiro @\n• Serghei Spivac (#7) vs. Waldo Cortes Acosta (#11) @\n• 
+	Khaos Williams vs. Andreas Gustafsson @\n\nEarly Prelims\n----------------
+	----\n• Ariane da Silva (#13) vs. Wang Cong @\n• Jeka Saragih vs. JooSang 
+	Yoo @\n• Quillan Salkilld vs. Yanal Ashmouz @\n• MarQuel Mederos vs. Mark 
+	Choinski @\n\nhttps://www.ufc.com/event/ufc-316\n\nAccurate as of Jul 9\, 
+	4:19 PM EDT
 LOCATION:Prudential Center\, Newark\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-315
 SUMMARY:UFC 315: Muhammad vs Della Maddalena
-DTSTAMP:20250709T162040Z
+DTSTAMP:20250709T201912Z
 DTSTART:20250511T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Belal Muhammad (C) vs. Jack 
-	Della Maddalena (#5) @170\n• Valentina Shevchenko (C) vs. Manon Fiorot (#2
-	) @125\n• José Aldo (#11) vs. Aiemann Zahabi (#15) @145\n• Alexa Grasso (#
-	1) vs. Natalia Silva (#5) @125\n• Benoît Saint Denis (#13) vs. Kyle Prepol
-	ec @155\n\nPrelims (2 hrs before Main)\n--------------------\n• Mike Malot
-	t vs. Charles Radtke @170\n• Jéssica Andrade (#7) vs. Jasmine Jasudavicius
-	 (#9) @125\n• Modestas Bukauskas vs. Ion Cutelaba @205\n• Navajo Stirling 
-	vs. Ivan Erslan @205\n\nEarly Prelims (3.5 hrs before Main)\n-------------
-	-------\n• Marc-Andre Barriault vs. Bruno Silva @185\n• Daniel Santos vs. 
-	JeongYeong Lee @145\n• Brad Katona vs. Bekzat Almakhan @135\n\nhttps://www
-	.ufc.com/event/ufc-315\n\nAccurate as of Jul 9\, 12:20 PM EDT
+	Della Maddalena (#5) @\n• Valentina Shevchenko (C) vs. Manon Fiorot (#2) @
+	\n• Jose Aldo (#11) vs. Aiemann Zahabi (#15) @\n• Alexa Grasso (#1) vs. Na
+	talia Silva (#5) @\n• Benoît Saint Denis (#13) vs. Kyle Prepolec @\n\nPrel
+	ims\n--------------------\n• Mike Malott vs. Charles Radtke @\n• Jéssica A
+	ndrade (#7) vs. Jasmine Jasudavicius (#9) @\n• Modestas Bukauskas vs. Ion 
+	Cutelaba @\n• Navajo Stirling vs. Ivan Erslan @\n\nEarly Prelims\n--------
+	------------\n• Marc-Andre Barriault vs. Bruno Silva @\n• Daniel Santos vs
+	. JeongYeong Lee @\n• Brad Katona vs. Bekzat Almakhan @\n\nhttps://www.ufc
+	.com/event/ufc-315\n\nAccurate as of Jul 9\, 4:19 PM EDT
 LOCATION:Bell Centre\, Montréal\, Canada
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-320
 SUMMARY:UFC 320: TBD vs TBD
-DTSTAMP:20250709T162040Z
+DTSTAMP:20250709T201912Z
 DTSTART:20251005T020000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-320\n\nAccurate as of Jul 9\, 12:
-	20 PM EDT
+DESCRIPTION:https://www.ufc.com/event/ufc-320\n\nAccurate as of Jul 9\, 4:1
+	9 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-321
 SUMMARY:UFC 321: TBD vs TBD
-DTSTAMP:20250709T162040Z
+DTSTAMP:20250709T201912Z
 DTSTART:20251026T020000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-321\n\nAccurate as of Jul 9\, 12:
-	20 PM EDT
+DESCRIPTION:https://www.ufc.com/event/ufc-321\n\nAccurate as of Jul 9\, 4:1
+	9 PM EDT
 LOCATION:Etihad Arena\, Yas Island/Yas West\, United Arab Emirates
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-314
 SUMMARY:UFC 314: Volkanovski vs Lopes
-DTSTAMP:20250709T162040Z
+DTSTAMP:20250709T201912Z
 DTSTART:20250413T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Alexander Volkanovski (#1) v
-	s. Diego Lopes (#3) @145\n• Michael Chandler (#7) vs. Paddy Pimblett (#12)
-	 @155\n• Yair Rodriguez (#5) vs. Patricio Pitbull @145\n• Bryce Mitchell (
-	#13) vs. Jean Silva @145\n• Nikita Krylov (#8) vs. Dominick Reyes (#11) @2
-	05\n\nPrelims (2 hrs before Main)\n--------------------\n• Dan Ige (#15) v
-	s. Sean Woodson @145\n• Yan Xiaonan (#1) vs. Virna Jandiroba (#3) @115\n• 
-	Jim Miller vs. Chase Hooper @155\n• Darren Elkins vs. Julian Erosa @145\n\
-	nEarly Prelims (4 hrs before Main)\n--------------------\n• Sedriques Duma
-	s vs. Michal Oleksiejczuk @185\n• Sumudaerji vs. Mitch Raposo @125\n• Tres
-	ean Gore vs. Marco Tulio @185\n• Nora Cornolle (#13) vs. Hailey Cowan @135
-	\n\nhttps://www.ufc.com/event/ufc-314\n\nAccurate as of Jul 9\, 12:20 PM E
-	DT
+	s. Diego Lopes (#3) @\n• Michael Chandler (#7) vs. Paddy Pimblett (#12) @\
+	n• Yair Rodriguez (#5) vs. Patricio Pitbull @\n• Bryce Mitchell (#13) vs. 
+	Jean Silva @\n• Nikita Krylov (#8) vs. Dominick Reyes (#11) @\n\nPrelims\n
+	--------------------\n• Dan Ige (#15) vs. Sean Woodson @\n• Yan Xiaonan (#
+	1) vs. Virna Jandiroba (#3) @\n• Jim Miller vs. Chase Hooper @\n• Darren E
+	lkins vs. Julian Erosa @\n\nEarly Prelims\n--------------------\n• Sedriqu
+	es Dumas vs. Michal Oleksiejczuk @\n• Sumudaerji vs. Mitch Raposo @\n• Tre
+	sean Gore vs. Marco Tulio @\n• Nora Cornolle (#13) vs. Hailey Cowan @\n\nh
+	ttps://www.ufc.com/event/ufc-314\n\nAccurate as of Jul 9\, 4:19 PM EDT
 LOCATION:Kaseya Center\, Miami\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-313
 SUMMARY:UFC 313: Pereira vs Ankalaev
-DTSTAMP:20250709T162040Z
+DTSTAMP:20250709T201912Z
 DTSTART:20250309T030000Z
 DESCRIPTION:Main Card\n--------------------\n• Alex Pereira (C) vs. Magomed
-	 Ankalaev (#1) @205\n• Justin Gaethje (#3) vs. Rafael Fiziev (#11) @155\n•
-	 Jalin Turner (#13) vs. Ignacio Bahamondes @155\n• Amanda Lemos (#5) vs. I
-	asmin Lucindo (#7) @115\n• King Green vs. Mauricio Ruffy @155\n\nPrelims (
-	2 hrs before Main)\n--------------------\n• Joshua Van vs. Rei Tsuruya @12
-	5\n• Brunno Ferreira vs. Armen Petrosyan @185\n• Alex Morono vs. Carlos Le
-	al @170\n• Mairon Santos vs. Francis Marshall @145\n\nEarly Prelims (3.5 h
-	rs before Main)\n--------------------\n• Djorden Santos vs. Ozzy Diaz @185
-	\n\nhttps://www.ufc.com/event/ufc-313\n\nAccurate as of Jul 9\, 12:20 PM E
-	DT
+	 Ankalaev (#1) @\n• Justin Gaethje (#3) vs. Rafael Fiziev (#11) @\n• Jalin
+	 Turner (#13) vs. Ignacio Bahamondes @\n• Amanda Lemos (#5) vs. Iasmin Luc
+	indo (#7) @\n• King Green vs. Mauricio Ruffy @\n\nPrelims\n---------------
+	-----\n• Joshua Van vs. Rei Tsuruya @\n• Brunno Ferreira vs. Armen Petrosy
+	an @\n• Alex Morono vs. Carlos Leal @\n• Mairon Santos vs. Francis Marshal
+	l @\n\nEarly Prelims\n--------------------\n• Djorden Santos vs. Ozzy Diaz
+	 @\n\nhttps://www.ufc.com/event/ufc-313\n\nAccurate as of Jul 9\, 4:19 PM 
+	EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
