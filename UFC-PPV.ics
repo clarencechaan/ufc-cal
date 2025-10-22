@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-321
 SUMMARY:UFC 321: Aspinall vs Gane
-DTSTAMP:20251022T123645Z
+DTSTAMP:20251022T162228Z
 DTSTART:20251025T180000Z
 DESCRIPTION:Main Card\n--------------------\n• Tom Aspinall (C) vs. Ciryl G
 	ane (#1) @265\n• Virna Jandiroba (#1) vs. Mackenzie Dern (#5) @115\n• Umar
@@ -21,14 +21,14 @@ DESCRIPTION:Main Card\n--------------------\n• Tom Aspinall (C) vs. Ciryl G
 	• Nathaniel Wood vs. Jose Miguel Delgado @145\n• Hamdy Abdelwahab vs. Chri
 	s Barnett @265\n• Azat Maksum vs. Mitch Raposo @125\n• Jaqueline Amorim vs
 	. Mizuki @115\n\nhttps://www.ufc.com/event/ufc-321\n\nAccurate as of Oct 2
-	2\, 8:36 AM EDT
+	2\, 12:22 PM EDT
 LOCATION:Etihad Arena\, Yas Island/Yas West\, United Arab Emirates
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-322
 SUMMARY:UFC 322: Della Maddalena vs Makhachev
-DTSTAMP:20251022T123645Z
+DTSTAMP:20251022T162228Z
 DTSTART:20251116T030000Z
 DESCRIPTION:• Jack Della Maddalena (C) vs. Islam Makhachev (#1) @170\n• Val
 	entina Shevchenko (C) vs. Zhang Weili (C) @125\n• Sean Brady (#2) vs. Mich
@@ -38,27 +38,27 @@ DESCRIPTION:• Jack Della Maddalena (C) vs. Islam Makhachev (#1) @170\n• Val
 	 Blanchfield (#4) vs. Tracy Cortez (#8) @125\n• Kyle Daukaus vs. Gerald Me
 	erschaert @185\n• Angela Hill (#12) vs. Fatima Kline @115\n• Baisangur Sus
 	urkaev vs. Eric McConico @185\n\nhttps://www.ufc.com/event/ufc-322\n\nAccu
-	rate as of Oct 22\, 8:36 AM EDT
+	rate as of Oct 22\, 12:22 PM EDT
 LOCATION:Madison Square Garden\, New York\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-323
 SUMMARY:UFC 323: Dvalishvili vs Yan 2
-DTSTAMP:20251022T123645Z
+DTSTAMP:20251022T162228Z
 DTSTART:20251207T030000Z
 DESCRIPTION:• Merab Dvalishvili (C) vs. Petr Yan (#2) @135\n• Alexandre Pan
 	toja (C) vs. Joshua Van (#1) @125\n• Jan Błachowicz (#4) vs. Bogdan Guskov
 	 (#11) @205\n• Brandon Moreno (#2) vs. Tatsuro Taira (#5) @125\n• Henry Ce
 	judo (#10) vs. Payton Talbott @135\n\nhttps://www.ufc.com/event/ufc-323\n\
-	nAccurate as of Oct 22\, 8:36 AM EDT
+	nAccurate as of Oct 22\, 12:22 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-320
 SUMMARY:UFC 320: Ankalaev vs Pereira 2
-DTSTAMP:20251022T123645Z
+DTSTAMP:20251022T162228Z
 DTSTART:20251005T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Magomed Ankalaev (C) vs. Ale
 	x Pereira (#1) @205\n• Merab Dvalishvili (C) vs. Cory Sandhagen (#4) @135\
@@ -71,14 +71,14 @@ DESCRIPTION:Main Card\n--------------------\n• Magomed Ankalaev (C) vs. Ale
 	lay Veretennikov @170\n• Macy Chiasson (#5) vs. Yana Santos (#10) @135\n• 
 	Chris Gutierrez vs. Farid Basharat @135\n• Ramiz Brahimaj vs. Austin Vande
 	rford @170\n• Veronica Hardy vs. Brogan Walker @125\n\nhttps://www.ufc.com
-	/event/ufc-320\n\nAccurate as of Oct 22\, 8:36 AM EDT
+	/event/ufc-320\n\nAccurate as of Oct 22\, 12:22 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-319
 SUMMARY:UFC 319: Du Plessis vs Chimaev
-DTSTAMP:20251022T123645Z
+DTSTAMP:20251022T162228Z
 DTSTART:20250817T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Dricus Du Plessis (C) vs. Kh
 	amzat Chimaev (#3) @185\n• Lerone Murphy (#4) vs. Aaron Pico @145\n• Geoff
@@ -90,14 +90,14 @@ DESCRIPTION:Main Card\n--------------------\n• Dricus Du Plessis (C) vs. Kh
 	ndez @155\n• Edson Barboza vs. Drakkar Klose @155\n• Karine Silva (#11) vs
 	. Dione Barbosa @125\n\nEarly Prelims (3.5 hrs before Main)\n-------------
 	-------\n• Alibi Idiris vs. Joseph Morales @125\n\nhttps://www.ufc.com/eve
-	nt/ufc-319\n\nAccurate as of Oct 22\, 8:36 AM EDT
+	nt/ufc-319\n\nAccurate as of Oct 22\, 12:22 PM EDT
 LOCATION:United Center\, Chicago\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-318
 SUMMARY:UFC 318: Holloway vs Poirier 3
-DTSTAMP:20251022T123645Z
+DTSTAMP:20251022T162228Z
 DTSTART:20250720T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Max Holloway (C) vs. Dustin 
 	Poirier (#6) @155\n• Paulo Costa (#13) vs. Roman Kopylov (#14) @185\n• Kev
@@ -110,14 +110,14 @@ DESCRIPTION:Main Card\n--------------------\n• Max Holloway (C) vs. Dustin
 	n• Adam Fugitt vs. Islam Dulatov @170\n• Jimmy Crute vs. Marcin Prachnio @
 	205\n• Ryan Spann vs. Lukasz Brzeski @265\n• Brunno Ferreira vs. Jackson M
 	cVey @185\n• Carli Judice vs. Nicolle Caliari @125\n\nhttps://www.ufc.com/
-	event/ufc-318\n\nAccurate as of Oct 22\, 8:36 AM EDT
+	event/ufc-318\n\nAccurate as of Oct 22\, 12:22 PM EDT
 LOCATION:Smoothie King Center\, New Orleans\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-317
 SUMMARY:UFC 317: Topuria vs Oliveira
-DTSTAMP:20251022T123645Z
+DTSTAMP:20251022T162228Z
 DTSTART:20250629T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Ilia Topuria vs. Charles Oli
 	veira (#2) @155\n• Alexandre Pantoja (C) vs. Kai Kara-France (#4) @125\n• 
@@ -128,7 +128,7 @@ DESCRIPTION:Main Card\n--------------------\n• Ilia Topuria vs. Charles Oli
 	o (#8) vs. Tracy Cortez (#10) @125\n• Terrance McKinney vs. Viacheslav Bor
 	shchev @155\n\nEarly Prelims (3 hrs before Main)\n--------------------\n• 
 	Niko Price vs. Jacobe Smith @170\n• Jhonata Diniz vs. Alvin Hines @265\n\n
-	https://www.ufc.com/event/ufc-317\n\nAccurate as of Oct 22\, 8:36 AM EDT
+	https://www.ufc.com/event/ufc-317\n\nAccurate as of Oct 22\, 12:22 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
