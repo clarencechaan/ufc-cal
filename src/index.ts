@@ -24,7 +24,7 @@ async function createICS() {
     if (eventsData) fs.writeFileSync("UFC.ics", eventsData);
 
     // Filter for PPV events only
-    const ppvEvents = events.filter((event) => /^UFC \d+/.test(event.name));
+    const ppvEvents = events.filter((event) => /UFC \d+/.test(event.name));
     const formattedPPVEvents = ppvEvents.map((event) =>
       formatEventForCalendar(event, "UFC-PPV")
     );
