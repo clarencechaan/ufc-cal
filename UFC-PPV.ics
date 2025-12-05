@@ -8,123 +8,118 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-323
 SUMMARY:UFC 323: Dvalishvili vs Yan 2
-DTSTAMP:20251204T202019Z
+DTSTAMP:20251205T012253Z
 DTSTART:20251207T030000Z
 DESCRIPTION:Main Card\n--------------------\n• Merab Dvalishvili (C) vs. Pe
-	tr Yan (#3) @135\n• Alexandre Pantoja (C) vs. Joshua Van (#1) @125\n• Bran
-	don Moreno (#2) vs. Tatsuro Taira (#5) @125\n• Henry Cejudo (#10) vs. Payt
-	on Talbott @135\n• Jan Błachowicz (#5) vs. Bogdan Guskov (#11) @205\n\nPre
-	lims (2 hrs before Main)\n--------------------\n• Grant Dawson (#13) vs. M
-	anuel Torres @155\n• Terrance McKinney vs. Chris Duncan @155\n• Maycee Bar
-	ber (#5) vs. Karine Silva (#9) @125\n• Nazim Sadykhov vs. Farès Ziam @155\
-	n\nEarly Prelims (4 hrs before Main)\n--------------------\n• Marvin Vetto
-	ri (#14) vs. Brunno Ferreira @185\n• Edson Barboza vs. Jalin Turner @155\n
-	• Iwo Baraniewski vs. Ibo Aslan @205\n• Mansur Abdul-Malik vs. Antonio Tro
-	coli @185\n• Muhammad Naimov vs. Mairon Santos @145\n\nhttps://www.ufc.com
-	/event/ufc-323\n\nAccurate as of Dec 4\, 3:20 PM EST
+	tr Yan (#3) @\n• Alexandre Pantoja (C) vs. Joshua Van (#1) @\n• Brandon Mo
+	reno (#2) vs. Tatsuro Taira (#5) @\n• Henry Cejudo (#10) vs. Payton Talbot
+	t @\n• Jan Błachowicz (#5) vs. Bogdan Guskov (#11) @\n\nPrelims\n---------
+	-----------\n• Grant Dawson (#13) vs. Manuel Torres @\n• Terrance McKinney
+	 vs. Chris Duncan @\n• Maycee Barber (#5) vs. Karine Silva (#9) @\n• Nazim
+	 Sadykhov vs. Farès Ziam @\n\nEarly Prelims\n--------------------\n• Marvi
+	n Vettori (#14) vs. Brunno Ferreira @\n• Edson Barboza vs. Jalin Turner @\
+	n• Iwo Baraniewski vs. Ibo Aslan @\n• Mansur Abdul-Malik vs. Antonio Troco
+	li @\n• Muhammad Naimov vs. Mairon Santos @\n\nhttps://www.ufc.com/event/u
+	fc-323\n\nAccurate as of Dec 4\, 8:22 PM EST
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-324
 SUMMARY:UFC 324: Gaethje vs Pimblett
-DTSTAMP:20251204T202019Z
+DTSTAMP:20251205T012253Z
 DTSTART:20260125T020000Z
-DESCRIPTION:• Justin Gaethje (#4) vs. Paddy Pimblett (#5) @155\n• Kayla Har
-	rison (C) vs. Amanda Nunes @\n• Sean O'Malley (#2) vs. Song Yadong (#5) @\
-	n• Waldo Cortes Acosta (#5) vs. Derrick Lewis (#8) @\n• Arnold Allen (#6) 
-	vs. Jean Silva (#11) @\n• Alexa Grasso (#3) vs. Rose Namajunas (#6) @\n• U
-	mar Nurmagomedov (#1) vs. Deiveson Figueiredo (#6) @\n• Ateba Gautier vs. 
-	Andrey Pulyaev @\n\nhttps://www.ufc.com/event/ufc-324\n\nAccurate as of De
-	c 4\, 3:20 PM EST
+DESCRIPTION:• Justin Gaethje (#4) vs. Paddy Pimblett (#5) @\n• Kayla Harris
+	on (C) vs. Amanda Nunes @\n• Sean O'Malley (#2) vs. Song Yadong (#5) @\n• 
+	Waldo Cortes Acosta (#5) vs. Derrick Lewis (#8) @\n• Arnold Allen (#6) vs.
+	 Jean Silva (#11) @\n• Alexa Grasso (#3) vs. Rose Namajunas (#6) @\n• Umar
+	 Nurmagomedov (#1) vs. Deiveson Figueiredo (#6) @\n• Ateba Gautier vs. And
+	rey Pulyaev @\n\nhttps://www.ufc.com/event/ufc-324\n\nAccurate as of Dec 4
+	\, 8:22 PM EST
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-325
 SUMMARY:UFC 325: Volkanovski vs Lopes 2
-DTSTAMP:20251204T202019Z
+DTSTAMP:20251205T012253Z
 DTSTART:20260201T020000Z
-DESCRIPTION:• Alexander Volkanovski (C) vs. Diego Lopes (#2) @145\n\nhttps:
-	//www.ufc.com/event/ufc-325\n\nAccurate as of Dec 4\, 3:20 PM EST
+DESCRIPTION:• Alexander Volkanovski (C) vs. Diego Lopes (#2) @\n\nhttps://w
+	ww.ufc.com/event/ufc-325\n\nAccurate as of Dec 4\, 8:22 PM EST
 LOCATION:Qudos Bank Arena\, Sydney Olympic Park\, Australia
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-322
 SUMMARY:VeChain UFC 322: Della Maddalena vs Makhachev
-DTSTAMP:20251204T202019Z
+DTSTAMP:20251205T012253Z
 DTSTART:20251116T030000Z
 DESCRIPTION:Main Card\n--------------------\n• Jack Della Maddalena (C) vs.
-	 Islam Makhachev @170\n• Valentina Shevchenko (C) vs. Zhang Weili @125\n• 
-	Sean Brady (#2) vs. Michael Morales (#8) @170\n• Leon Edwards (#4) vs. Car
-	los Prates (#9) @170\n• Beneil Dariush (#9) vs. Benoît Saint Denis (#13) @
-	155\n\nPrelims (2 hrs before Main)\n--------------------\n• Bo Nickal vs. 
-	Rodolfo Vieira @185\n• Roman Kopylov vs. Gregory Rodrigues @185\n• Erin Bl
-	anchfield (#4) vs. Tracy Cortez (#8) @125\n• Malcolm Wellmaker vs. Ethyn E
-	wing @145\n\nEarly Prelims (4 hrs before Main)\n--------------------\n• Ky
-	le Daukaus vs. Gerald Meerschaert @185\n• Pat Sabatini vs. Chepe Mariscal 
-	@145\n• Angela Hill (#12) vs. Fatima Kline @115\n• Baisangur Susurkaev vs.
-	 Eric McConico @185\n• Viacheslav Borshchev vs. Matheus Camilo @155\n\nhtt
-	ps://www.ufc.com/event/ufc-322\n\nAccurate as of Dec 4\, 3:20 PM EST
+	 Islam Makhachev @\n• Valentina Shevchenko (C) vs. Zhang Weili @\n• Sean B
+	rady (#2) vs. Michael Morales (#8) @\n• Leon Edwards (#4) vs. Carlos Prate
+	s (#9) @\n• Beneil Dariush (#9) vs. Benoît Saint Denis (#13) @\n\nPrelims\
+	n--------------------\n• Bo Nickal vs. Rodolfo Vieira @\n• Roman Kopylov v
+	s. Gregory Rodrigues @\n• Erin Blanchfield (#4) vs. Tracy Cortez (#8) @\n•
+	 Malcolm Wellmaker vs. Ethyn Ewing @\n\nEarly Prelims\n-------------------
+	-\n• Kyle Daukaus vs. Gerald Meerschaert @\n• Pat Sabatini vs. Chepe Maris
+	cal @\n• Angela Hill (#12) vs. Fatima Kline @\n• Baisangur Susurkaev vs. E
+	ric McConico @\n• Viacheslav Borshchev vs. Matheus Camilo @\n\nhttps://www
+	.ufc.com/event/ufc-322\n\nAccurate as of Dec 4\, 8:22 PM EST
 LOCATION:Madison Square Garden\, New York\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-321
 SUMMARY:UFC 321: Aspinall vs Gane
-DTSTAMP:20251204T202019Z
+DTSTAMP:20251205T012253Z
 DTSTART:20251025T180000Z
 DESCRIPTION:Main Card\n--------------------\n• Tom Aspinall (C) vs. Ciryl G
-	ane (#1) @265\n• Virna Jandiroba (#1) vs. Mackenzie Dern (#5) @115\n• Umar
-	 Nurmagomedov (#2) vs. Mario Bautista (#9) @135\n• Alexander Volkov (#2) v
-	s. Jailton Almeida (#5) @265\n• Aleksandar Rakić (#7) vs. Azamat Murzakano
-	v (#10) @205\n\nPrelims (4 hrs before Main)\n--------------------\n• Nasra
-	t Haqparast vs. Quillan Salkilld @155\n• Ikram Aliskerov vs. JunYong Park 
-	@185\n• Ludovit Klein vs. Mateusz Rębecki @155\n• Valter Walker (#15) vs. 
-	Louie Sutherland @265\n• Nathaniel Wood vs. Jose Miguel Delgado @145\n• Ha
-	mdy Abdelwahab vs. Chris Barnett @265\n• Azat Maksum vs. Mitch Raposo @125
-	\n• Jaqueline Amorim vs. Mizuki @115\n\nhttps://www.ufc.com/event/ufc-321\
-	n\nAccurate as of Dec 4\, 3:20 PM EST
+	ane (#1) @\n• Virna Jandiroba (#1) vs. Mackenzie Dern (#5) @\n• Umar Nurma
+	gomedov (#2) vs. Mario Bautista (#9) @\n• Alexander Volkov (#2) vs. Jailto
+	n Almeida (#5) @\n• Aleksandar Rakić (#7) vs. Azamat Murzakanov (#10) @\n\
+	nPrelims\n--------------------\n• Nasrat Haqparast vs. Quillan Salkilld @\
+	n• Ikram Aliskerov vs. JunYong Park @\n• Ludovit Klein vs. Mateusz Rębecki
+	 @\n• Valter Walker (#15) vs. Louie Sutherland @\n• Nathaniel Wood vs. Jos
+	e Miguel Delgado @\n• Hamdy Abdelwahab vs. Chris Barnett @\n• Azat Maksum 
+	vs. Mitch Raposo @\n• Jaqueline Amorim vs. Mizuki @\n\nhttps://www.ufc.com
+	/event/ufc-321\n\nAccurate as of Dec 4\, 8:22 PM EST
 LOCATION:Etihad Arena\, Yas Island/Yas West\, United Arab Emirates
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-320
 SUMMARY:UFC 320: Ankalaev vs Pereira 2
-DTSTAMP:20251204T202019Z
+DTSTAMP:20251205T012253Z
 DTSTART:20251005T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Magomed Ankalaev (C) vs. Ale
-	x Pereira (#1) @205\n• Merab Dvalishvili (C) vs. Cory Sandhagen (#4) @135\
-	n• Jiří Procházka (#2) vs. Khalil Rountree Jr. (#4) @205\n• Josh Emmett (#
-	8) vs. Youssef Zalal (#9) @145\n• Abus Magomedov (#14) vs. Joe Pyfer @185\
-	n\nPrelims (2 hrs before Main)\n--------------------\n• Ateba Gautier vs. 
-	Tre’ston Vines @185\n• Daniel Santos vs. JooSang Yoo @CW\n• Patchy Mix vs.
-	 Jakub Wiklacz @135\n• Edmen Shahbazyan vs. Andre Muniz @185\n\nEarly Prel
-	ims (4 hrs before Main)\n--------------------\n• Punahele Soriano vs. Niko
-	lay Veretennikov @170\n• Macy Chiasson (#5) vs. Yana Santos (#10) @135\n• 
-	Chris Gutierrez vs. Farid Basharat @135\n• Ramiz Brahimaj vs. Austin Vande
-	rford @170\n• Veronica Hardy vs. Brogan Walker @125\n\nhttps://www.ufc.com
-	/event/ufc-320\n\nAccurate as of Dec 4\, 3:20 PM EST
+	x Pereira (#1) @\n• Merab Dvalishvili (C) vs. Cory Sandhagen (#4) @\n• Jiř
+	í Procházka (#2) vs. Khalil Rountree Jr. (#4) @\n• Josh Emmett (#8) vs. Yo
+	ussef Zalal (#9) @\n• Abus Magomedov (#14) vs. Joe Pyfer @\n\nPrelims\n---
+	-----------------\n• Ateba Gautier vs. Tre’ston Vines @\n• Daniel Santos v
+	s. JooSang Yoo @CW\n• Patchy Mix vs. Jakub Wiklacz @\n• Edmen Shahbazyan v
+	s. Andre Muniz @\n\nEarly Prelims\n--------------------\n• Punahele Sorian
+	o vs. Nikolay Veretennikov @\n• Macy Chiasson (#5) vs. Yana Santos (#10) @
+	\n• Chris Gutierrez vs. Farid Basharat @\n• Ramiz Brahimaj vs. Austin Vand
+	erford @\n• Veronica Hardy vs. Brogan Walker @\n\nhttps://www.ufc.com/even
+	t/ufc-320\n\nAccurate as of Dec 4\, 8:22 PM EST
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-319
 SUMMARY:UFC 319: Du Plessis vs Chimaev
-DTSTAMP:20251204T202019Z
+DTSTAMP:20251205T012253Z
 DTSTART:20250817T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Dricus Du Plessis (C) vs. Kh
-	amzat Chimaev (#3) @185\n• Lerone Murphy (#4) vs. Aaron Pico @145\n• Geoff
-	 Neal (#11) vs. Carlos Prates (#12) @170\n• Jared Cannonier (#9) vs. Micha
-	el Page @185\n• Tim Elliott (#11) vs. Kai Asakura (#15) @125\n\nPrelims (2
-	 hrs before Main)\n--------------------\n• Baisangur Susurkaev vs. Eric No
-	lan @185\n• Gerald Meerschaert vs. Michal Oleksiejczuk @185\n• Jéssica And
-	rade (#5) vs. Loopy Godinez (#11) @115\n• Chase Hooper vs. Alexander Herna
-	ndez @155\n• Edson Barboza vs. Drakkar Klose @155\n• Karine Silva (#11) vs
-	. Dione Barbosa @125\n\nEarly Prelims (3.5 hrs before Main)\n-------------
-	-------\n• Alibi Idiris vs. Joseph Morales @125\n\nhttps://www.ufc.com/eve
-	nt/ufc-319\n\nAccurate as of Dec 4\, 3:20 PM EST
+	amzat Chimaev (#3) @\n• Lerone Murphy (#4) vs. Aaron Pico @\n• Geoff Neal 
+	(#11) vs. Carlos Prates (#12) @\n• Jared Cannonier (#9) vs. Michael Page @
+	\n• Tim Elliott (#11) vs. Kai Asakura (#15) @\n\nPrelims\n----------------
+	----\n• Baisangur Susurkaev vs. Eric Nolan @\n• Gerald Meerschaert vs. Mic
+	hal Oleksiejczuk @\n• Jéssica Andrade (#5) vs. Loopy Godinez (#11) @\n• Ch
+	ase Hooper vs. Alexander Hernandez @\n• Edson Barboza vs. Drakkar Klose @\
+	n• Karine Silva (#11) vs. Dione Barbosa @\n\nEarly Prelims\n--------------
+	------\n• Alibi Idiris vs. Joseph Morales @\n\nhttps://www.ufc.com/event/u
+	fc-319\n\nAccurate as of Dec 4\, 8:22 PM EST
 LOCATION:United Center\, Chicago\, United States
 DURATION:PT3H
 END:VEVENT
