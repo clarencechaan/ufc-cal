@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-327
 SUMMARY:UFC 327: Prochazka vs Ulberg
-DTSTAMP:20260309T203130Z
+DTSTAMP:20260310T015012Z
 DTSTART:20260412T010000Z
 DESCRIPTION:• Jiří Procházka (#2) vs. Carlos Ulberg (#3) @205\n• Joshua Van
 	 (C) vs. Tatsuro Taira (#3) @125\n• Beneil Dariush (#12) vs. Manuel Torres
@@ -19,14 +19,14 @@ DESCRIPTION:• Jiří Procházka (#2) vs. Carlos Ulberg (#3) @205\n• Joshua V
 	 Tatiana Suarez (#2) vs. Loopy Godinez (#6) @115\n• Cub Swanson vs. Nate L
 	andwehr @145\n• Kelvin Gastelum vs. Vicente Luque @185\n• Christopher Alvi
 	drez vs. Francisco Prado @170\n\nhttps://www.ufc.com/event/ufc-327\n\nAccu
-	rate as of Mar 9\, 4:31 PM EDT
+	rate as of Mar 9\, 9:50 PM EDT
 LOCATION:Kaseya Center\, Miami\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-326
 SUMMARY:UFC 326: Holloway vs Oliveira 2
-DTSTAMP:20260309T203130Z
+DTSTAMP:20260310T015012Z
 DTSTART:20260308T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Max Holloway (C) vs. Charles
 	 Oliveira (#3) @155\n• Caio Borralho (#7) vs. Reinier de Ridder (#8) @185\
@@ -38,14 +38,14 @@ DESCRIPTION:Main Card\n--------------------\n• Max Holloway (C) vs. Charles
 	elims (3.5 hrs before Main)\n--------------------\n• Sumudaerji vs. Jesus 
 	Aguilar @125\n• Rafael Tobias vs. Diyar Nurgozhay @205\n• Luke Fernandez v
 	s. Rodolfo Bellato @205\n\nhttps://www.ufc.com/event/ufc-326\n\nAccurate a
-	s of Mar 9\, 4:31 PM EDT
+	s of Mar 9\, 9:50 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-325
 SUMMARY:UFC 325: Volkanovski vs Lopes 2
-DTSTAMP:20260309T203130Z
+DTSTAMP:20260310T015012Z
 DTSTART:20260201T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Alexander Volkanovski (C) vs
 	. Diego Lopes (#2) @145\n• Dan Hooker (#6) vs. Benoît Saint Denis (#8) @15
@@ -57,14 +57,14 @@ DESCRIPTION:Main Card\n--------------------\n• Alexander Volkanovski (C) vs
 	rly Prelims (4 hrs before Main)\n--------------------\n• Kaan Ofli vs. Yiz
 	ha @145\n• SangWook Kim vs. Dom Mar Fan @155\n• Keiichiro Nakamura vs. Seb
 	astian Szalay @145\n• Sulangrangbo vs. Lawrence Lui @135\n\nhttps://www.uf
-	c.com/event/ufc-325\n\nAccurate as of Mar 9\, 4:31 PM EDT
+	c.com/event/ufc-325\n\nAccurate as of Mar 9\, 9:50 PM EDT
 LOCATION:Qudos Bank Arena\, Sydney Olympic Park\, Australia
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-324
 SUMMARY:UFC 324: Gaethje vs Pimblett
-DTSTAMP:20260309T203130Z
+DTSTAMP:20260310T015012Z
 DTSTART:20260125T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Justin Gaethje (#4) vs. Padd
 	y Pimblett (#5) @155\n• Sean O'Malley (#3) vs. Song Yadong (#5) @135\n• Wa
@@ -76,14 +76,14 @@ DESCRIPTION:Main Card\n--------------------\n• Justin Gaethje (#4) vs. Padd
 	11) vs. Charles Johnson (#13) @125\n\nEarly Prelims (3.5 hrs before Main)\
 	n--------------------\n• Josh Hokit vs. Denzel Freeman @265\n• Adam Fugitt
 	 vs. Ty Miller @170\n\nhttps://www.ufc.com/event/ufc-324\n\nAccurate as of
-	 Mar 9\, 4:31 PM EDT
+	 Mar 9\, 9:50 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-323
 SUMMARY:UFC 323: Dvalishvili vs Yan 2
-DTSTAMP:20260309T203130Z
+DTSTAMP:20260310T015012Z
 DTSTART:20251207T030000Z
 DESCRIPTION:Main Card\n--------------------\n• Merab Dvalishvili (C) vs. Pe
 	tr Yan (#3) @135\n• Alexandre Pantoja (C) vs. Joshua Van (#1) @125\n• Bran
@@ -96,14 +96,14 @@ DESCRIPTION:Main Card\n--------------------\n• Merab Dvalishvili (C) vs. Pe
 	ri (#14) vs. Brunno Ferreira @185\n• Edson Barboza vs. Jalin Turner @155\n
 	• Iwo Baraniewski vs. Ibo Aslan @205\n• Mansur Abdul-Malik vs. Antonio Tro
 	coli @185\n• Muhammad Naimov vs. Mairon Santos @145\n\nhttps://www.ufc.com
-	/event/ufc-323\n\nAccurate as of Mar 9\, 4:31 PM EDT
+	/event/ufc-323\n\nAccurate as of Mar 9\, 9:50 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-322
 SUMMARY:VeChain UFC 322: Della Maddalena vs Makhachev
-DTSTAMP:20260309T203130Z
+DTSTAMP:20260310T015012Z
 DTSTART:20251116T030000Z
 DESCRIPTION:Main Card\n--------------------\n• Jack Della Maddalena (C) vs.
 	 Islam Makhachev @170\n• Valentina Shevchenko (C) vs. Zhang Weili @125\n• 
@@ -116,14 +116,14 @@ DESCRIPTION:Main Card\n--------------------\n• Jack Della Maddalena (C) vs.
 	le Daukaus vs. Gerald Meerschaert @185\n• Pat Sabatini vs. Chepe Mariscal 
 	@145\n• Angela Hill (#12) vs. Fatima Kline @115\n• Baisangur Susurkaev vs.
 	 Eric McConico @185\n• Viacheslav Borshchev vs. Matheus Camilo @155\n\nhtt
-	ps://www.ufc.com/event/ufc-322\n\nAccurate as of Mar 9\, 4:31 PM EDT
+	ps://www.ufc.com/event/ufc-322\n\nAccurate as of Mar 9\, 9:50 PM EDT
 LOCATION:Madison Square Garden\, New York\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-321
 SUMMARY:UFC 321: Aspinall vs Gane
-DTSTAMP:20260309T203130Z
+DTSTAMP:20260310T015012Z
 DTSTART:20251025T180000Z
 DESCRIPTION:Main Card\n--------------------\n• Tom Aspinall (C) vs. Ciryl G
 	ane (#1) @265\n• Virna Jandiroba (#1) vs. Mackenzie Dern (#5) @115\n• Umar
@@ -135,14 +135,14 @@ DESCRIPTION:Main Card\n--------------------\n• Tom Aspinall (C) vs. Ciryl G
 	Louie Sutherland @265\n• Nathaniel Wood vs. Jose Miguel Delgado @145\n• Ha
 	mdy Abdelwahab vs. Chris Barnett @265\n• Azat Maksum vs. Mitch Raposo @125
 	\n• Jaqueline Amorim vs. Mizuki @115\n\nhttps://www.ufc.com/event/ufc-321\
-	n\nAccurate as of Mar 9\, 4:31 PM EDT
+	n\nAccurate as of Mar 9\, 9:50 PM EDT
 LOCATION:Etihad Arena\, Yas Island/Yas West\, United Arab Emirates
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-320
 SUMMARY:UFC 320: Ankalaev vs Pereira 2
-DTSTAMP:20260309T203130Z
+DTSTAMP:20260310T015012Z
 DTSTART:20251005T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Magomed Ankalaev (C) vs. Ale
 	x Pereira (#1) @205\n• Merab Dvalishvili (C) vs. Cory Sandhagen (#4) @135\
@@ -155,7 +155,7 @@ DESCRIPTION:Main Card\n--------------------\n• Magomed Ankalaev (C) vs. Ale
 	lay Veretennikov @170\n• Macy Chiasson (#5) vs. Yana Santos (#10) @135\n• 
 	Chris Gutierrez vs. Farid Basharat @135\n• Ramiz Brahimaj vs. Austin Vande
 	rford @170\n• Veronica Hardy vs. Brogan Walker @125\n\nhttps://www.ufc.com
-	/event/ufc-320\n\nAccurate as of Mar 9\, 4:31 PM EDT
+	/event/ufc-320\n\nAccurate as of Mar 9\, 9:50 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
