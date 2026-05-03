@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-328
 SUMMARY:UFC 328: Chimaev vs Strickland
-DTSTAMP:20260503T024156Z
+DTSTAMP:20260503T062349Z
 DTSTART:20260510T010000Z
 DESCRIPTION:Main Card\n--------------------\n• Khamzat Chimaev (C) vs. Sean
 	 Strickland (#3) @185\n• Joshua Van (C) vs. Tatsuro Taira (#3) @125\n• Ale
@@ -20,38 +20,38 @@ DESCRIPTION:Main Card\n--------------------\n• Khamzat Chimaev (C) vs. Sean
 	 (4 hrs before Main)\n--------------------\n• Roman Kopylov vs. Marco Tuli
 	o @185\n• Pat Sabatini vs. William Gomis @145\n• Baisangur Susurkaev vs. D
 	jorden Santos @185\n• Clayton Carpenter vs. Jose Ochoa @125\n\nhttps://www
-	.ufc.com/event/ufc-328\n\nAccurate as of May 2\, 10:41 PM EDT
+	.ufc.com/event/ufc-328\n\nAccurate as of May 3\, 2:23 AM EDT
 LOCATION:Prudential Center\, Newark\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-freedom-250
 SUMMARY:UFC Freedom 250: Topuria vs Gaethje
-DTSTAMP:20260503T024156Z
+DTSTAMP:20260503T062349Z
 DTSTART:20260615T000000Z
 DESCRIPTION:• Ilia Topuria (C) vs. Justin Gaethje (#1) @155\n• Alex Pereira
 	 (#2) vs. Ciryl Gane (#1) @265\n• Sean O'Malley (#2) vs. Aiemann Zahabi (#
 	6) @135\n• Josh Hokit (#5) vs. Derrick Lewis (#9) @265\n• Mauricio Ruffy (
 	#10) vs. Michael Chandler (#13) @155\n• Bo Nickal vs. Kyle Daukaus @185\n•
 	 Diego Lopes (#2) vs. Steve Garcia (#9) @145\n\nhttps://www.ufc.com/event/
-	ufc-freedom-250\n\nAccurate as of May 2\, 10:41 PM EDT
+	ufc-freedom-250\n\nAccurate as of May 3\, 2:23 AM EDT
 LOCATION:The White House\, Washington\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-329
 SUMMARY:UFC 329: TBD vs TBD
-DTSTAMP:20260503T024156Z
+DTSTAMP:20260503T062349Z
 DTSTART:20260711T220000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-329\n\nAccurate as of May 2\, 10:
-	41 PM EDT
+DESCRIPTION:https://www.ufc.com/event/ufc-329\n\nAccurate as of May 3\, 2:2
+	3 AM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-327
 SUMMARY:UFC 327: Prochazka vs Ulberg
-DTSTAMP:20260503T024156Z
+DTSTAMP:20260503T062349Z
 DTSTART:20260412T010000Z
 DESCRIPTION:Main Card\n--------------------\n• Jiří Procházka (#2) vs. Carl
 	os Ulberg (#3) @205\n• Azamat Murzakanov (#6) vs. Paulo Costa @205\n• Curt
@@ -63,24 +63,24 @@ DESCRIPTION:Main Card\n--------------------\n• Jiří Procházka (#2) vs. Carl
 	ly Prelims (3.5 hrs before Main)\n--------------------\n• Chris Padilla vs
 	. MarQuel Mederos @155\n• Kelvin Gastelum vs. Vicente Luque @185\n• Charle
 	s Radtke vs. Francisco Prado @170\n\nhttps://www.ufc.com/event/ufc-327\n\n
-	Accurate as of May 2\, 10:41 PM EDT
+	Accurate as of May 3\, 2:23 AM EDT
 LOCATION:Kaseya Center\, Miami\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-330
 SUMMARY:UFC 330: TBD vs TBD
-DTSTAMP:20260503T024156Z
+DTSTAMP:20260503T062349Z
 DTSTART:20260815T220000Z
-DESCRIPTION:https://www.ufc.com/event/ufc-330\n\nAccurate as of May 2\, 10:
-	41 PM EDT
+DESCRIPTION:https://www.ufc.com/event/ufc-330\n\nAccurate as of May 3\, 2:2
+	3 AM EDT
 LOCATION:Xfinity Mobile Arena\, Philadelphia\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-326
 SUMMARY:UFC 326: Holloway vs Oliveira 2
-DTSTAMP:20260503T024156Z
+DTSTAMP:20260503T062349Z
 DTSTART:20260308T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Max Holloway (C) vs. Charles
 	 Oliveira (#3) @155\n• Caio Borralho (#7) vs. Reinier de Ridder (#8) @185\
@@ -92,14 +92,14 @@ DESCRIPTION:Main Card\n--------------------\n• Max Holloway (C) vs. Charles
 	elims (3.5 hrs before Main)\n--------------------\n• Sumudaerji vs. Jesus 
 	Aguilar @125\n• Rafael Tobias vs. Diyar Nurgozhay @205\n• Luke Fernandez v
 	s. Rodolfo Bellato @205\n\nhttps://www.ufc.com/event/ufc-326\n\nAccurate a
-	s of May 2\, 10:41 PM EDT
+	s of May 3\, 2:23 AM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-325
 SUMMARY:UFC 325: Volkanovski vs Lopes 2
-DTSTAMP:20260503T024156Z
+DTSTAMP:20260503T062349Z
 DTSTART:20260201T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Alexander Volkanovski (C) vs
 	. Diego Lopes (#2) @145\n• Dan Hooker (#6) vs. Benoît Saint Denis (#8) @15
@@ -111,14 +111,14 @@ DESCRIPTION:Main Card\n--------------------\n• Alexander Volkanovski (C) vs
 	rly Prelims (4 hrs before Main)\n--------------------\n• Kaan Ofli vs. Yiz
 	ha @145\n• SangWook Kim vs. Dom Mar Fan @155\n• Keiichiro Nakamura vs. Seb
 	astian Szalay @145\n• Sulangrangbo vs. Lawrence Lui @135\n\nhttps://www.uf
-	c.com/event/ufc-325\n\nAccurate as of May 2\, 10:41 PM EDT
+	c.com/event/ufc-325\n\nAccurate as of May 3\, 2:23 AM EDT
 LOCATION:Qudos Bank Arena\, Sydney Olympic Park\, Australia
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-324
 SUMMARY:UFC 324: Gaethje vs Pimblett
-DTSTAMP:20260503T024156Z
+DTSTAMP:20260503T062349Z
 DTSTART:20260125T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Justin Gaethje (#4) vs. Padd
 	y Pimblett (#5) @155\n• Sean O'Malley (#3) vs. Song Yadong (#5) @135\n• Wa
@@ -130,14 +130,14 @@ DESCRIPTION:Main Card\n--------------------\n• Justin Gaethje (#4) vs. Padd
 	11) vs. Charles Johnson (#13) @125\n\nEarly Prelims (3.5 hrs before Main)\
 	n--------------------\n• Josh Hokit vs. Denzel Freeman @265\n• Adam Fugitt
 	 vs. Ty Miller @170\n\nhttps://www.ufc.com/event/ufc-324\n\nAccurate as of
-	 May 2\, 10:41 PM EDT
+	 May 3\, 2:23 AM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-323
 SUMMARY:UFC 323: Dvalishvili vs Yan 2
-DTSTAMP:20260503T024156Z
+DTSTAMP:20260503T062349Z
 DTSTART:20251207T030000Z
 DESCRIPTION:Main Card\n--------------------\n• Merab Dvalishvili (C) vs. Pe
 	tr Yan (#3) @135\n• Alexandre Pantoja (C) vs. Joshua Van (#1) @125\n• Bran
@@ -150,7 +150,7 @@ DESCRIPTION:Main Card\n--------------------\n• Merab Dvalishvili (C) vs. Pe
 	ri (#14) vs. Brunno Ferreira @185\n• Edson Barboza vs. Jalin Turner @155\n
 	• Iwo Baraniewski vs. Ibo Aslan @205\n• Mansur Abdul-Malik vs. Antonio Tro
 	coli @185\n• Muhammad Naimov vs. Mairon Santos @145\n\nhttps://www.ufc.com
-	/event/ufc-323\n\nAccurate as of May 2\, 10:41 PM EDT
+	/event/ufc-323\n\nAccurate as of May 3\, 2:23 AM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
