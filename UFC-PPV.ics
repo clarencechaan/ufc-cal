@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-329
 SUMMARY:UFC 329: McGregor vs Holloway 2
-DTSTAMP:20260622T095031Z
+DTSTAMP:20260622T165030Z
 DTSTART:20260712T010000Z
 DESCRIPTION:Main Card\n--------------------\n• Conor McGregor vs. Max Hollo
 	way (#4) @170\n• Benoît Saint Denis (#5) vs. Paddy Pimblett (#6) @155\n• C
@@ -20,42 +20,42 @@ DESCRIPTION:Main Card\n--------------------\n• Conor McGregor vs. Max Hollo
 	------------------\n• Tracy Cortez (#8) vs. Wang Cong (#12) @125\n• Damian
 	 Pinas vs. Cesar Almeida @185\n• Ryan Gandra vs. Zachary Reese @185\n• Ode
 	' Osbourne vs. Cody Durden @125\n\nhttps://www.ufc.com/event/ufc-329\n\nAc
-	curate as of Jun 22\, 5:50 AM EDT
+	curate as of Jun 22\, 12:50 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-330
 SUMMARY:UFC 330: Makhachev vs Machado Garry
-DTSTAMP:20260622T095031Z
+DTSTAMP:20260622T165030Z
 DTSTART:20260815T220000Z
 DESCRIPTION:• Islam Makhachev (C) vs. Ian Machado Garry (#1) @170\n• Macken
 	zie Dern (C) vs. Gillian Robertson (#5) @115\n• Edson Barboza vs. Esteban 
 	Ribovics @155\n• Erin Blanchfield (#4) vs. Jasmine Jasudavicius (#6) @125\
-	n\nhttps://www.ufc.com/event/ufc-330\n\nAccurate as of Jun 22\, 5:50 AM ED
-	T
+	n\nhttps://www.ufc.com/event/ufc-330\n\nAccurate as of Jun 22\, 12:50 PM E
+	DT
 LOCATION:Xfinity Mobile Arena\, Philadelphia\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-freedom-250
 SUMMARY:UFC Freedom 250: Topuria vs Gaethje
-DTSTAMP:20260622T095031Z
+DTSTAMP:20260622T165030Z
 DTSTART:20260615T000000Z
 DESCRIPTION:Main Card\n--------------------\n• Ilia Topuria (C) vs. Justin 
 	Gaethje (C) @155\n• Alex Pereira vs. Ciryl Gane (#1) @265\n• Sean O'Malley
 	 (#3) vs. Aiemann Zahabi (#6) @135\n• Josh Hokit (#5) vs. Derrick Lewis (#
 	9) @265\n• Mauricio Ruffy (#9) vs. Michael Chandler (#13) @155\n• Bo Nicka
 	l vs. Kyle Daukaus @185\n• Diego Lopes (#2) vs. Steve Garcia (#9) @145\n\n
-	https://www.ufc.com/event/ufc-freedom-250\n\nAccurate as of Jun 22\, 5:50 
-	AM EDT
+	https://www.ufc.com/event/ufc-freedom-250\n\nAccurate as of Jun 22\, 12:50
+	 PM EDT
 LOCATION:The White House\, Washington\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-328
 SUMMARY:UFC 328: Chimaev vs Strickland
-DTSTAMP:20260622T095031Z
+DTSTAMP:20260622T165030Z
 DTSTART:20260510T010000Z
 DESCRIPTION:Main Card\n--------------------\n• Khamzat Chimaev (C) vs. Sean
 	 Strickland (#3) @185\n• Joshua Van (C) vs. Tatsuro Taira (#3) @125\n• Ale
@@ -67,14 +67,14 @@ DESCRIPTION:Main Card\n--------------------\n• Khamzat Chimaev (C) vs. Sean
 	 (4 hrs before Main)\n--------------------\n• Roman Kopylov vs. Marco Tuli
 	o @185\n• Pat Sabatini vs. William Gomis @145\n• Baisangur Susurkaev vs. D
 	jorden Santos @185\n• Clayton Carpenter vs. Jose Ochoa @125\n\nhttps://www
-	.ufc.com/event/ufc-328\n\nAccurate as of Jun 22\, 5:50 AM EDT
+	.ufc.com/event/ufc-328\n\nAccurate as of Jun 22\, 12:50 PM EDT
 LOCATION:Prudential Center\, Newark\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-327
 SUMMARY:UFC 327: Prochazka vs Ulberg
-DTSTAMP:20260622T095031Z
+DTSTAMP:20260622T165030Z
 DTSTART:20260412T010000Z
 DESCRIPTION:Main Card\n--------------------\n• Jiří Procházka (#2) vs. Carl
 	os Ulberg (#3) @205\n• Azamat Murzakanov (#6) vs. Paulo Costa @205\n• Curt
@@ -86,14 +86,14 @@ DESCRIPTION:Main Card\n--------------------\n• Jiří Procházka (#2) vs. Carl
 	ly Prelims (3.5 hrs before Main)\n--------------------\n• Chris Padilla vs
 	. MarQuel Mederos @155\n• Kelvin Gastelum vs. Vicente Luque @185\n• Charle
 	s Radtke vs. Francisco Prado @170\n\nhttps://www.ufc.com/event/ufc-327\n\n
-	Accurate as of Jun 22\, 5:50 AM EDT
+	Accurate as of Jun 22\, 12:50 PM EDT
 LOCATION:Kaseya Center\, Miami\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-326
 SUMMARY:UFC 326: Holloway vs Oliveira 2
-DTSTAMP:20260622T095031Z
+DTSTAMP:20260622T165030Z
 DTSTART:20260308T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Max Holloway (C) vs. Charles
 	 Oliveira (#3) @155\n• Caio Borralho (#7) vs. Reinier de Ridder (#8) @185\
@@ -105,7 +105,7 @@ DESCRIPTION:Main Card\n--------------------\n• Max Holloway (C) vs. Charles
 	elims (3.5 hrs before Main)\n--------------------\n• Sumudaerji vs. Jesus 
 	Aguilar @125\n• Rafael Tobias vs. Diyar Nurgozhay @205\n• Luke Fernandez v
 	s. Rodolfo Bellato @205\n\nhttps://www.ufc.com/event/ufc-326\n\nAccurate a
-	s of Jun 22\, 5:50 AM EDT
+	s of Jun 22\, 12:50 PM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
