@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-329
 SUMMARY:UFC 329: McGregor vs Holloway 2
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260712T010000Z
 DESCRIPTION:Main Card\n--------------------\n• Conor McGregor vs. Max Hollo
 	way (#4) @170\n• Benoît Saint Denis (#5) vs. Paddy Pimblett (#6) @155\n• C
@@ -21,14 +21,14 @@ DESCRIPTION:Main Card\n--------------------\n• Conor McGregor vs. Max Hollo
 	 vs. Wang Cong (#12) @125\n• Damian Pinas vs. Cesar Almeida @185\n• Farid 
 	Basharat (#15) vs. Ethyn Ewing @135\n• Ryan Gandra vs. Zachary Reese @185\
 	n• Alessandro Costa vs. Cody Durden @125\n\nhttps://www.ufc.com/event/ufc-
-	329\n\nAccurate as of Jun 30\, 11:35 PM EDT
+	329\n\nAccurate as of Jul 1\, 4:09 AM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-july-18-2026
 SUMMARY:UFC Fight Night: Du Plessis vs Usman
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260719T000000Z
 DESCRIPTION:Main Card\n--------------------\n• Dricus Du Plessis (#2) vs. K
 	amaru Usman (#9) @185\n• Jared Cannonier (#11) vs. Christian Leroy Duncan 
@@ -39,14 +39,14 @@ DESCRIPTION:Main Card\n--------------------\n• Dricus Du Plessis (#2) vs. K
 	ose Miguel Delgado @145\n• Allen Frye Jr. vs. Alvin Hines @265\n• Levi Rod
 	rigues Jr. vs. Felipe Franco @205\n• Alden Coria vs. Stewart Nicoll @125\n
 	\nhttps://www.ufc.com/event/ufc-fight-night-july-18-2026\n\nAccurate as of
-	 Jun 30\, 11:35 PM EDT
+	 Jul 1\, 4:09 AM EDT
 LOCATION:Paycom Center\, Oklahoma City\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-july-25-2026
 SUMMARY:UFC Fight Night: Ankalaev vs Rountree Jr.
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260725T160000Z
 DESCRIPTION:Main Card\n--------------------\n• Magomed Ankalaev (#1) vs. Kh
 	alil Rountree Jr. (#5) @205\n• Steve Erceg (#10) vs. Ramazan Temirov @125\
@@ -55,14 +55,14 @@ DESCRIPTION:Main Card\n--------------------\n• Magomed Ankalaev (#1) vs. Kh
 	(#14) vs. Thomas Petersen @265\n\nPrelims (3 hrs before Main)\n-----------
 	---------\n• Uran Satybaldiev vs. Dustin Jacoby @205\n• Magomed Tuchalov v
 	s. Brendson Ribeiro @205\n\nhttps://www.ufc.com/event/ufc-fight-night-july
-	-25-2026\n\nAccurate as of Jun 30\, 11:35 PM EDT
+	-25-2026\n\nAccurate as of Jul 1\, 4:09 AM EDT
 LOCATION:Etihad Arena\, Yas Island/Yas West\, United Arab Emirates
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-august-01-2026
 SUMMARY:UFC Fight Night: Medic vs Rodriguez
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260801T170000Z
 DESCRIPTION:• Uroš Medić (#14) vs. Daniel Rodriguez (#15) @170\n• Jan Błach
 	owicz (#4) vs. Bogdan Guskov (#10) @205\n• Aleksandar Rakić vs. Marcin Tyb
@@ -71,58 +71,57 @@ DESCRIPTION:• Uroš Medić (#14) vs. Daniel Rodriguez (#15) @170\n• Jan Bła
 	dorović vs. Robert Valentin @185\n• Dennis Buzukja vs. Bogdan Grad @145\n•
 	 Vlasto Cepo vs. Gilbert Urbina @185\n• Jovan Leka vs. Max Gimenis @265\n•
 	 Nina Milosevic vs. Hailey Cowan @135\n\nhttps://www.ufc.com/event/ufc-fig
-	ht-night-august-01-2026\n\nAccurate as of Jun 30\, 11:35 PM EDT
+	ht-night-august-01-2026\n\nAccurate as of Jul 1\, 4:09 AM EDT
 LOCATION:Belgrade Arena\, BG\, Serbia
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-330
 SUMMARY:UFC 330: Makhachev vs Machado Garry
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260816T010000Z
 DESCRIPTION:• Islam Makhachev (C) vs. Ian Machado Garry (#1) @170\n• Macken
 	zie Dern (C) vs. Gillian Robertson (#5) @115\n• Edson Barboza vs. Esteban 
 	Ribovics @155\n• Erin Blanchfield (#4) vs. Jasmine Jasudavicius (#7) @125\
-	n\nhttps://www.ufc.com/event/ufc-330\n\nAccurate as of Jun 30\, 11:35 PM E
-	DT
+	n\nhttps://www.ufc.com/event/ufc-330\n\nAccurate as of Jul 1\, 4:09 AM EDT
 LOCATION:Xfinity Mobile Arena\, Philadelphia\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-august-22-2026
 SUMMARY:UFC Fight Night: Hernandez vs Rodrigues
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260823T000000Z
 DESCRIPTION:• Anthony Hernandez (#6) vs. Gregory Rodrigues (#12) @185\n\nht
 	tps://www.ufc.com/event/ufc-fight-night-august-22-2026\n\nAccurate as of J
-	un 30\, 11:35 PM EDT
+	ul 1\, 4:09 AM EDT
 LOCATION:Golden 1 Center\, Sacramento\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-august-29-2026
 SUMMARY:UFC Fight Night: TBD vs TBD
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260829T220000Z
 DESCRIPTION:https://www.ufc.com/event/ufc-fight-night-august-29-2026\n\nAcc
-	urate as of Jun 30\, 11:35 PM EDT
+	urate as of Jul 1\, 4:09 AM EDT
 LOCATION:Oriental Sports Center\, Pudong District\, China
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-september-05-2026
 SUMMARY:UFC Fight Night: TBD vs TBD
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260905T220000Z
 DESCRIPTION:https://www.ufc.com/event/ufc-fight-night-september-05-2026\n\n
-	Accurate as of Jun 30\, 11:35 PM EDT
+	Accurate as of Jul 1\, 4:09 AM EDT
 LOCATION:Accor Arena\, Paris\, France
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-june-27-2026
 SUMMARY:UFC Fight Night: Fiziev vs Torres
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260627T160000Z
 DESCRIPTION:Main Card\n--------------------\n• Rafael Fiziev (#11) vs. Manu
 	el Torres (#15) @155\n• Shara Magomedov vs. Michel Pereira @185\n• Nazim S
@@ -134,14 +133,14 @@ DESCRIPTION:Main Card\n--------------------\n• Rafael Fiziev (#11) vs. Manu
 	Ofli vs. Javier Reyes @145\n• Daniil Donchenko vs. Theodor Berggren @170\n
 	• Bekzat Almakhan vs. Jean Matsumoto @135\n• Tahir Abdullayev vs. Jefferso
 	n Nascimento @170\n\nhttps://www.ufc.com/event/ufc-fight-night-june-27-202
-	6\n\nAccurate as of Jun 30\, 11:35 PM EDT
+	6\n\nAccurate as of Jul 1\, 4:09 AM EDT
 LOCATION:National Gymnastics Arena\, Baku\, Azerbaijan
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-june-20-2026
 SUMMARY:UFC Fight Night: Kape vs Horiguchi
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260621T000000Z
 DESCRIPTION:Main Card\n--------------------\n• Manel Kape (#2) vs. Kyoji Ho
 	riguchi (#5) @125\n• Ion Cutelaba vs. Navajo Stirling @205\n• Hyder Amil v
@@ -152,29 +151,29 @@ DESCRIPTION:Main Card\n--------------------\n• Manel Kape (#2) vs. Kyoji Ho
 	25\n• Gaston Bolanos vs. Michael Aswell Jr. @145\n• Leon Shahbazyan vs. Le
 	van Chokheli @170\n• Karol Rosa (#8) vs. Luana Santos (#11) @135\n• Shane 
 	Collins vs. Otari Tanzilovi @145\n\nhttps://www.ufc.com/event/ufc-fight-ni
-	ght-june-20-2026\n\nAccurate as of Jun 30\, 11:35 PM EDT
+	ght-june-20-2026\n\nAccurate as of Jul 1\, 4:09 AM EDT
 LOCATION:Meta APEX\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-freedom-250
 SUMMARY:UFC Freedom 250: Topuria vs Gaethje
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260615T000000Z
 DESCRIPTION:Main Card\n--------------------\n• Ilia Topuria (C) vs. Justin 
 	Gaethje (C) @155\n• Alex Pereira vs. Ciryl Gane (#1) @265\n• Sean O'Malley
 	 (#3) vs. Aiemann Zahabi (#6) @135\n• Josh Hokit (#5) vs. Derrick Lewis (#
 	9) @265\n• Mauricio Ruffy (#9) vs. Michael Chandler (#13) @155\n• Bo Nicka
 	l vs. Kyle Daukaus @185\n• Diego Lopes (#2) vs. Steve Garcia (#9) @145\n\n
-	https://www.ufc.com/event/ufc-freedom-250\n\nAccurate as of Jun 30\, 11:35
-	 PM EDT
+	https://www.ufc.com/event/ufc-freedom-250\n\nAccurate as of Jul 1\, 4:09 A
+	M EDT
 LOCATION:The White House\, Washington\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-june-06-2026
 SUMMARY:UFC Fight Night: Muhammad vs Bonfim
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260607T000000Z
 DESCRIPTION:Main Card\n--------------------\n• Belal Muhammad (#5) vs. Gabr
 	iel Bonfim (#11) @170\n• Brendan Allen (#4) vs. Edmen Shahbazyan @185\n• F
@@ -185,14 +184,14 @@ DESCRIPTION:Main Card\n--------------------\n• Belal Muhammad (#5) vs. Gabr
 	riscila Cachoeira vs. Chelsea Chandler @135\n• Jordan Leavitt vs. Joanders
 	on Brito @145\n• Jeisla Chaves vs. Yuneisy Duben @125\n• Ketlen Souza vs. 
 	Ariane Carnelossi @115\n\nhttps://www.ufc.com/event/ufc-fight-night-june-0
-	6-2026\n\nAccurate as of Jun 30\, 11:35 PM EDT
+	6-2026\n\nAccurate as of Jul 1\, 4:09 AM EDT
 LOCATION:Meta APEX\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-may-30-2026
 SUMMARY:UFC Fight Night: Song vs Figueiredo
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260530T110000Z
 DESCRIPTION:Main Card\n--------------------\n• Song Yadong (#5) vs. Deiveso
 	n Figueiredo (#7) @135\n• Zhang Mingyang vs. Alonzo Menifield (#15) @205\n
@@ -203,15 +202,15 @@ DESCRIPTION:Main Card\n--------------------\n• Song Yadong (#5) vs. Deiveso
 	Souza @170\n• Aoriqileng vs. Cody Haddon @135\n• Rei Tsuruya vs. Luis Guru
 	le @135\n• Angela Hill (#14) vs. Xiong Jingnan @115\n• Zhu Kangjie vs. Rod
 	rigo Vera @145\n• Loma Lookboonmee vs. Jaqueline Amorim @115\n\nhttps://ww
-	w.ufc.com/event/ufc-fight-night-may-30-2026\n\nAccurate as of Jun 30\, 11:
-	35 PM EDT
+	w.ufc.com/event/ufc-fight-night-may-30-2026\n\nAccurate as of Jul 1\, 4:09
+	 AM EDT
 LOCATION:Galaxy Arena\, \, Macao
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-may-16-2026
 SUMMARY:UFC Fight Night: Allen vs Costa
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260517T000000Z
 DESCRIPTION:Main Card\n--------------------\n• Arnold Allen (#7) vs. Melqui
 	zael Costa (#12) @145\n• Dooho Choi vs. Daniel Santos @145\n• Malcolm Well
@@ -222,15 +221,15 @@ DESCRIPTION:Main Card\n--------------------\n• Arnold Allen (#7) vs. Melqui
 	ieira (#5) vs. Jacqueline Cavalcanti (#11) @135\n• Cody Brundage vs. Andre
 	 Petroski @185\n• Alice Ardelean vs. Polyana Viana @115\n• Daniel Barez vs
 	. Luis Gurule @125\n• Shauna Bannon vs. Nicolle Caliari @115\n\nhttps://ww
-	w.ufc.com/event/ufc-fight-night-may-16-2026\n\nAccurate as of Jun 30\, 11:
-	35 PM EDT
+	w.ufc.com/event/ufc-fight-night-may-16-2026\n\nAccurate as of Jul 1\, 4:09
+	 AM EDT
 LOCATION:Meta APEX\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-328
 SUMMARY:UFC 328: Chimaev vs Strickland
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260510T010000Z
 DESCRIPTION:Main Card\n--------------------\n• Khamzat Chimaev (C) vs. Sean
 	 Strickland (#3) @185\n• Joshua Van (C) vs. Tatsuro Taira (#3) @125\n• Ale
@@ -242,14 +241,14 @@ DESCRIPTION:Main Card\n--------------------\n• Khamzat Chimaev (C) vs. Sean
 	 (4 hrs before Main)\n--------------------\n• Roman Kopylov vs. Marco Tuli
 	o @185\n• Pat Sabatini vs. William Gomis @145\n• Baisangur Susurkaev vs. D
 	jorden Santos @185\n• Clayton Carpenter vs. Jose Ochoa @125\n\nhttps://www
-	.ufc.com/event/ufc-328\n\nAccurate as of Jun 30\, 11:35 PM EDT
+	.ufc.com/event/ufc-328\n\nAccurate as of Jul 1\, 4:09 AM EDT
 LOCATION:Prudential Center\, Newark\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-may-02-2026
 SUMMARY:UFC Fight Night: Della Maddalena vs Prates
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260502T110000Z
 DESCRIPTION:Main Card\n--------------------\n• Jack Della Maddalena (#1) vs
 	. Carlos Prates (#5) @170\n• Beneil Dariush (#12) vs. Quillan Salkilld @15
@@ -261,14 +260,14 @@ DESCRIPTION:Main Card\n--------------------\n• Jack Della Maddalena (#1) vs
 	sse vs. Vince Morales @135\n• Ben Johnston vs. Wes Schultz @185\n• Jonatha
 	n Micallef vs. Themba Gorimbo @170\n• Dom Mar Fan vs. Kody Steele @155\n\n
 	https://www.ufc.com/event/ufc-fight-night-may-02-2026\n\nAccurate as of Ju
-	n 30\, 11:35 PM EDT
+	l 1\, 4:09 AM EDT
 LOCATION:RAC Arena\, Perth\, Australia
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-april-25-2026
 SUMMARY:UFC Fight Night: Sterling vs Zalal
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260426T000000Z
 DESCRIPTION:Main Card\n--------------------\n• Aljamain Sterling (#5) vs. Y
 	oussef Zalal (#7) @145\n• Norma Dumont (#3) vs. Joselyne Edwards (#11) @13
@@ -280,14 +279,14 @@ DESCRIPTION:Main Card\n--------------------\n• Aljamain Sterling (#5) vs. Y
 	n• Jafel Filho vs. Cody Durden @135\n• Francis Marshall vs. Lucas Brennan 
 	@155\n• Max Griffin vs. Victor Valenzuela @170\n• Talita Alencar vs. Julia
 	 Polastri @115\n\nhttps://www.ufc.com/event/ufc-fight-night-april-25-2026\
-	n\nAccurate as of Jun 30\, 11:35 PM EDT
+	n\nAccurate as of Jul 1\, 4:09 AM EDT
 LOCATION:Meta APEX\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-april-18-2026
 SUMMARY:UFC Fight Night: Burns vs Malott
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260419T000000Z
 DESCRIPTION:Main Card\n--------------------\n• Gilbert Burns (#11) vs. Mike
 	 Malott @170\n• Kyler Phillips vs. Charles Jourdain @135\n• Mandel Nallo v
@@ -298,14 +297,14 @@ DESCRIPTION:Main Card\n--------------------\n• Gilbert Burns (#11) vs. Mike
 	elissa Croden vs. Daria Zhelezniakova @135\n• JJ Aldrich (#14) vs. Jamey-L
 	yn Horth @125\n• John Castaneda vs. Mark Vologdin @CW\n• Jamie Siraj vs. J
 	ohn Yannis @135\n\nhttps://www.ufc.com/event/ufc-fight-night-april-18-2026
-	\n\nAccurate as of Jun 30\, 11:35 PM EDT
+	\n\nAccurate as of Jul 1\, 4:09 AM EDT
 LOCATION:Canada Life Centre\, Winnipeg\, Canada
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-327
 SUMMARY:UFC 327: Prochazka vs Ulberg
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260412T010000Z
 DESCRIPTION:Main Card\n--------------------\n• Jiří Procházka (#2) vs. Carl
 	os Ulberg (#3) @205\n• Azamat Murzakanov (#6) vs. Paulo Costa @205\n• Curt
@@ -317,14 +316,14 @@ DESCRIPTION:Main Card\n--------------------\n• Jiří Procházka (#2) vs. Carl
 	ly Prelims (3.5 hrs before Main)\n--------------------\n• Chris Padilla vs
 	. MarQuel Mederos @155\n• Kelvin Gastelum vs. Vicente Luque @185\n• Charle
 	s Radtke vs. Francisco Prado @170\n\nhttps://www.ufc.com/event/ufc-327\n\n
-	Accurate as of Jun 30\, 11:35 PM EDT
+	Accurate as of Jul 1\, 4:09 AM EDT
 LOCATION:Kaseya Center\, Miami\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-april-04-2026
 SUMMARY:UFC Fight Night: Moicano vs Duncan
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260405T000000Z
 DESCRIPTION:Main Card\n--------------------\n• Renato Moicano (#10) vs. Chr
 	is Duncan @155\n• Virna Jandiroba (#3) vs. Tabatha Ricci (#7) @115\n• Abdu
@@ -335,15 +334,15 @@ DESCRIPTION:Main Card\n--------------------\n• Renato Moicano (#10) vs. Chr
 	oll @125\n• Lando Vannata vs. Darrius Flowers @155\n• Alice Pereira vs. Ha
 	iley Cowan @135\n• Azamat Bekoev vs. Tresean Gore @185\n• Dione Barbosa vs
 	. Melissa Gatto @125\n• Kai Kamaka III vs. Dakota Hope @155\n\nhttps://www
-	.ufc.com/event/ufc-fight-night-april-04-2026\n\nAccurate as of Jun 30\, 11
-	:35 PM EDT
+	.ufc.com/event/ufc-fight-night-april-04-2026\n\nAccurate as of Jul 1\, 4:0
+	9 AM EDT
 LOCATION:Meta APEX\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-march-28-2026
 SUMMARY:UFC Fight Night: Adesanya vs Pyfer
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260329T000000Z
 DESCRIPTION:Main Card\n--------------------\n• Israel Adesanya (#4) vs. Joe
 	 Pyfer (#14) @185\n• Alexa Grasso (#3) vs. Maycee Barber (#5) @125\n• Mich
@@ -355,14 +354,14 @@ DESCRIPTION:Main Card\n--------------------\n• Israel Adesanya (#4) vs. Joe
 	 vs. Gabriella Fernandes (#14) @125\n• Navajo Stirling vs. Bruno Lopes @20
 	5\n• Ricky Simon vs. Adrian Yanez @135\n• Alexia Thainara (#13) vs. Bruna 
 	Brasil @115\n\nhttps://www.ufc.com/event/ufc-fight-night-march-28-2026\n\n
-	Accurate as of Jun 30\, 11:35 PM EDT
+	Accurate as of Jul 1\, 4:09 AM EDT
 LOCATION:Climate Pledge Arena\, Seattle\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-march-21-2026
 SUMMARY:UFC Fight Night: Evloev vs Murphy
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260321T200000Z
 DESCRIPTION:Main Card\n--------------------\n• Movsar Evloev (#1) vs. Leron
 	e Murphy (#3) @145\n• Luke Riley vs. Michael Aswell Jr. @145\n• Michael Ve
@@ -374,14 +373,14 @@ DESCRIPTION:Main Card\n--------------------\n• Movsar Evloev (#1) vs. Leron
 	onio Trocoli @185\n• Louie Sutherland vs. Brando Peričić @265\n• Shem Rock
 	 vs. Abdul-Kareem Al-Selwady @155\n• Shanelle Dyer vs. Ravena Oliveira @11
 	5\n\nhttps://www.ufc.com/event/ufc-fight-night-march-21-2026\n\nAccurate a
-	s of Jun 30\, 11:35 PM EDT
+	s of Jul 1\, 4:09 AM EDT
 LOCATION:The O2\, London\, United Kingdom
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-fight-night-march-14-2026
 SUMMARY:UFC Fight Night: Emmett vs Vallejos
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260315T000000Z
 DESCRIPTION:Main Card\n--------------------\n• Josh Emmett (#11) vs. Kevin 
 	Vallejos (#14) @145\n• Amanda Lemos (#5) vs. Gillian Robertson (#8) @115\n
@@ -393,14 +392,14 @@ DESCRIPTION:Main Card\n--------------------\n• Josh Emmett (#11) vs. Kevin
 	el Sousa @155\n• Brad Tavares vs. Eryk Anders @185\n• Bia Mesquita vs. Mon
 	tse Rendon @135\n• Luan Lacerda vs. Hecher Sosa @135\n• Piera Rodriguez vs
 	. Sam Hughes @115\n\nhttps://www.ufc.com/event/ufc-fight-night-march-14-20
-	26\n\nAccurate as of Jun 30\, 11:35 PM EDT
+	26\n\nAccurate as of Jul 1\, 4:09 AM EDT
 LOCATION:Meta APEX\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
 BEGIN:VEVENT
 UID:https://www.ufc.com/event/ufc-326
 SUMMARY:UFC 326: Holloway vs Oliveira 2
-DTSTAMP:20260701T033510Z
+DTSTAMP:20260701T080919Z
 DTSTART:20260308T020000Z
 DESCRIPTION:Main Card\n--------------------\n• Max Holloway (C) vs. Charles
 	 Oliveira (#3) @155\n• Caio Borralho (#7) vs. Reinier de Ridder (#8) @185\
@@ -412,7 +411,7 @@ DESCRIPTION:Main Card\n--------------------\n• Max Holloway (C) vs. Charles
 	elims (3.5 hrs before Main)\n--------------------\n• Sumudaerji vs. Jesus 
 	Aguilar @125\n• Rafael Tobias vs. Diyar Nurgozhay @205\n• Luke Fernandez v
 	s. Rodolfo Bellato @205\n\nhttps://www.ufc.com/event/ufc-326\n\nAccurate a
-	s of Jun 30\, 11:35 PM EDT
+	s of Jul 1\, 4:09 AM EDT
 LOCATION:T-Mobile Arena\, Las Vegas\, United States
 DURATION:PT3H
 END:VEVENT
