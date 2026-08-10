@@ -192,6 +192,9 @@ async function getDetailsFromEventURL(url: URL) {
     // Deentitize HTML entities
     [name, location] = [decode(name), decode(location)];
 
+    // Strip Crypto.com branding from event name
+    name = name.replace("Crypto.com", "").trim();
+
     if (!name || !date) {
       throw new Error("Failed to retrieve event details");
     }
