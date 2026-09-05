@@ -195,6 +195,9 @@ async function getDetailsFromEventURL(url: URL) {
     // Strip Crypto.com branding from event name
     name = name.replace("Crypto.com", "").trim();
 
+    // Strip Polymarket branding from event name
+    name = name.replace("Polymarket", "").trim();
+
     if (!name || !date) {
       throw new Error("Failed to retrieve event details");
     }
