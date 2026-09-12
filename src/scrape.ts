@@ -160,16 +160,16 @@ async function getDetailsFromEventURL(url: URL) {
     console.log(`\nGetting details from url: ${url.href}`);
 
     const mainCardElements = root.querySelectorAll(
-      "#main-card .l-listing__item"
+      "#main-card--2 .l-listing__item"
     );
     // Check if main card and prelims have been announced
     if (mainCardElements.length) {
       // Main card has been announced, extract prelims
       const prelimsElements = root.querySelectorAll(
-        "#prelims-card .l-listing__item"
+        "#prelims-card--2 .l-listing__item"
       );
       const earlyPrelimsElements = root.querySelectorAll(
-        "#early-prelims .l-listing__item"
+        "early-prelims--2 .l-listing__item"
       );
 
       mainCard = mainCardElements.map(convertLiToStr);
