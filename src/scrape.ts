@@ -169,7 +169,7 @@ async function getDetailsFromEventURL(url: URL) {
         "#prelims-card--2 .l-listing__item"
       );
       const earlyPrelimsElements = root.querySelectorAll(
-        "early-prelims--2 .l-listing__item"
+        "#early-prelims--2 .l-listing__item"
       );
 
       mainCard = mainCardElements.map(convertLiToStr);
